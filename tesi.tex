@@ -1,0 +1,67 @@
+\documentclass[12pt,a4paper]{extreport}
+\usepackage[italian]{babel}
+\textwidth=450pt\oddsidemargin=0pt
+\usepackage{geometry}
+\topmargin=-50pt
+\textheight=675pt
+\usepackage{graphicx}
+\graphicspath{immagini/}
+\usepackage{multicol}
+
+\usepackage[colorlinks,allcolors=blue,pagebackref=true]{hyperref}
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+    \topmargin=-50pt
+    \begin{center}
+    {{\Large{\textsc{Alma Mater Studiorum $\cdot$ Universit\`a di
+    Bologna}}}} \rule[0.1cm]{15.8cm}{0.1mm}
+    \rule[0.5cm]{15.8cm}{0.6mm}
+    {{\bf INGEGNERIA DELL’ENERGIA ELETTRICA E DELL’INFORMAZIONE 
+    “GUGLIELMO MARCONI”\\
+    \small CORSO DI LAUREA IN INGEGNERIA BIOMEDICA}}
+    \end{center}
+    \vspace{15mm}
+    \begin{center}
+    {\LARGE{\bf Energy Harvesters}}\\
+    \vspace{3mm}
+    {\LARGE{\bf Indossabili}}\\
+    \vspace{2cm}
+    {\large{\bf Elaborato in Elettronica}}
+    \end{center}
+    \vspace{7cm}
+    \par
+    \noindent
+    \begin{minipage}[t]{0.47\textwidth}
+    {\large{\bf Relatore:\\
+    Prof. Claudio Fiegna}}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.47\textwidth}\raggedleft
+    {\large{\bf Presentata da:\\
+    Simone Morgagni}}
+    \end{minipage}
+    \vspace{20mm}
+    \begin{center}
+    {Anno Accademico 2023/2024}
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagenumbering{arabic}
+
+\chapter*{Abstract}
+{Si \`e voluto valutare i metodi e le applicazioni di harvesting possibili con particolare attenzione su alcuni esempi...}
+
+\include{capitoli/Introduzione}
+
+\include{capitoli/Metodi}
+
+\bibliographystyle{unsrt}
+\bibliography{test}
+
+\end{document}
