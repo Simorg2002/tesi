@@ -5,16 +5,15 @@
 \contentsline {section}{\numberline {1.2}Harvesting Energetico}{4}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Apllicazioni Harvester Energetici}{4}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Metodi Harvesting Energetico}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Sorgenti Ambientali}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Sorgenti Corporee}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Generatori Triboelettrici}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Generatori Piezoelettrici}{5}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Generatori Termoelettrici}{6}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Generatori Elettrostatici}{6}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Generatori Elettromagnetici}{6}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Celle a Biocombustibili}{6}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Generatori Idroelettrici}{6}{subsection.2.2.7}%
-\contentsline {section}{\numberline {2.3}Sorgenti Ambientali}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Generatori Fotovoltaici}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Generatori a Radiofrequenza}{6}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Trasferimentod di Potenza Wireless}{6}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.1}Sorgenti Corporee}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Generatori Triboelettrici}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Generatori Piezoelettrici}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Generatori Termoelettrici}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Generatori Elettrostatici}{6}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Generatori Elettromagnetici}{6}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Celle a Biocombustibili}{6}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Generatori Idroelettrici}{7}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Sorgenti Ambientali}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Generatori Fotovoltaici}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Generatori a Radiofrequenza}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Trasferimentod di Potenza Wireless}{7}{subsection.2.2.3}%

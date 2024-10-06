@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  5 OCT 2024 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  6 OCT 2024 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,26 +270,26 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 ) (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux))
 \openout1 = `tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Info: Redefining \it@ocap on input line 16.
-LaTeX Info: Redefining \it@ccap on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Info: Redefining \it@ocap on input line 13.
+LaTeX Info: Redefining \it@ccap on input line 13.
 
 
 File italian.ldf warning: 
@@ -297,7 +297,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 16.
+italian.ldf    on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -358,18 +358,18 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 13.
  (./tesi.out) (./tesi.out)
 \@outlinefile=\write3
 \openout3 = `tesi.out'.
 
 
-Overfull \hbox (31.29994pt too wide) in paragraph at lines 22--25
+Overfull \hbox (31.29994pt too wide) in paragraph at lines 19--22
  [] 
  []
 
 
-Overfull \hbox (31.29994pt too wide) in paragraph at lines 22--25
+Overfull \hbox (31.29994pt too wide) in paragraph at lines 19--22
  [] 
  []
 
@@ -386,7 +386,7 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 \chapter
+l.54 \chapter
              *{Abstract} [1
 
 ] [2
@@ -414,6 +414,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 
  (./capitoli/metodi.tex
 Capitolo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]\OT1/cmr/bx/n/14.4 Generatori Ter-moe-
+ []
+
 [5
 
 
@@ -421,7 +426,7 @@ Capitolo 2.
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]\OT1/cmr/bx/n/14.4 Generatori Ter-moe-
+[]\OT1/cmr/bx/n/14.4 Generatori Elet-tro-
  []
 
 
@@ -430,25 +435,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--23
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]\OT1/cmr/bx/n/14.4 Generatori Elet-tro-
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 35--35
+Underfull \hbox (badness 7759) in paragraph at lines 31--31
 []\OT1/cmr/bx/n/14.4 Generatori Idroe-let-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\OT1/cmr/bx/n/14.4 Generatori Fo-to-vol-
  []
 
-) [6] (./tesi.bbl (./tesi.brf)
+) [7] (./tesi.bbl (./tesi.brf)
 \tf@brf=\write5
 \openout5 = `tesi.brf'.
 
-) [7
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [8
 
 
 
@@ -458,23 +462,23 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: F6218DD5C6895AEF78775E52818E3EC5;3248.
+(rerunfilecheck)             Checksum: 9309F51023956DE6E1288AEA925BDD80;3095.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
-(rerunfilecheck)             Checksum: 3D7E97B961F3832885C0BF717B6F2A13;70.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10524 strings out of 475361
- 169152 string characters out of 5772361
+ 10512 strings out of 475361
+ 168913 string characters out of 5772361
  1940460 words of memory out of 5000000
- 32474 multiletter control sequences out of 15000+600000
- 566004 words of font info for 63 fonts, out of 8000000 for 9000
+ 32464 multiletter control sequences out of 15000+600000
+ 565657 words of font info for 62 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
- 90i,5n,93p,1434b,610s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tesi.pdf (8 pages, 97154 bytes).
+ 90i,5n,93p,1434b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on tesi.pdf (9 pages, 86548 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
