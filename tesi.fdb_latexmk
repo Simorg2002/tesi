@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex tesi"] 1728200121.17332 "tesi.aux" "tesi.bbl" "tesi" 1728200123.22039 0
+["bibtex tesi"] 1729095139.97822 "tesi.aux" "tesi.bbl" "tesi" 1729095141.85721 0
   "./test.bib" 1728111298 49145 5d91465a654bef85c0e0cee2510903c3 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1704255482 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "capitoli/Introduzione.aux" 1728200122 1178 f2b906091920579bbd8f22c47444c967 "pdflatex"
-  "capitoli/Metodi.aux" 1728200122 2415 d0f058c17bacb44b54071e6bb1199e90 "pdflatex"
-  "tesi.aux" 1728200122 360 5fabb74ae81e178e5fc22a749e7d633a "pdflatex"
+  "capitoli/Introduzione.aux" 1729095141 1178 f2b906091920579bbd8f22c47444c967 "pdflatex"
+  "capitoli/Metodi.aux" 1729095141 2270 a9b4b6c1651a73a156f84a6b788b0f82 "pdflatex"
+  "tesi.aux" 1729095141 437 10303f9433f55c670d5610c1ef165913 "pdflatex"
   (generated)
   "tesi.bbl"
   "tesi.blg"
   (rewritten before read)
-["pdflatex"] 1728200121.54526 "c:/Users/simor/Documents/Uni/tesi/tesi.tex" "tesi.pdf" "tesi" 1728200123.22167 0
-  "c:/Users/simor/Documents/Uni/tesi/tesi.tex" 1728197560 1647 ea4e4adbceb816310a478ca1701b0e38 ""
+["pdflatex"] 1729095140.3047 "c:/Users/simor/Documents/Uni/tesi/tesi.tex" "tesi.pdf" "tesi" 1729095141.85811 0
+  "c:/Users/simor/Documents/Uni/tesi/tesi.tex" 1729095137 1871 2ec9b77adcdeefc663aa70c9c9cc3ced ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1704256849 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1704255150 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1704255150 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -87,20 +87,21 @@
   "c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1704259032 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "c:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty" 1704259880 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "c:/texlive/2023/texmf-dist/tex/latex/url/url.sty" 1704260047 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty" 1704260196 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1704255005 41009 84b61f42d16d06bedb915f57aa2374cf ""
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704260350 4626807 094b2b4c15f139120e824e119150df24 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704260416 7983967 4121129dcde634be140ccf3a18dc43bf ""
   "c:/texlive/2023/texmf.cnf" 1704260338 713 e69b156964470283e0530f5060668171 ""
-  "capitoli/Introduzione.aux" 1728200122 1178 f2b906091920579bbd8f22c47444c967 "pdflatex"
+  "capitoli/Introduzione.aux" 1729095141 1178 f2b906091920579bbd8f22c47444c967 "pdflatex"
   "capitoli/Introduzione.tex" 1727922536 5371 144f6de5abfc9db073a86eea1ddd3933 ""
-  "capitoli/Metodi.aux" 1728200122 2415 d0f058c17bacb44b54071e6bb1199e90 "pdflatex"
-  "capitoli/metodi.tex" 1728200118 6345 6341e0b8077e044300ffea1b92b2094c ""
-  "tesi.aux" 1728200122 360 5fabb74ae81e178e5fc22a749e7d633a "pdflatex"
-  "tesi.bbl" 1728200121 49 0eba253fc001332e731e8aba3f23127b "bibtex tesi"
-  "tesi.brf" 1728200122 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesi.out" 1728200122 3095 9309f51023956de6e1288aea925bdd80 "pdflatex"
-  "tesi.tex" 1728197560 1647 ea4e4adbceb816310a478ca1701b0e38 ""
-  "tesi.toc" 1728200122 1583 70d6364b59ea1f8a3f4a71a02511faa9 "pdflatex"
+  "capitoli/Metodi.aux" 1729095141 2270 a9b4b6c1651a73a156f84a6b788b0f82 "pdflatex"
+  "capitoli/metodi.tex" 1728288088 7716 f6d66e1c63337255172ca5676f3021b4 ""
+  "tesi.aux" 1729095141 437 10303f9433f55c670d5610c1ef165913 "pdflatex"
+  "tesi.bbl" 1729095140 49 0eba253fc001332e731e8aba3f23127b "bibtex tesi"
+  "tesi.brf" 1729095141 43 107ad02f6d7a21c108f9d92eee8a7af5 "pdflatex"
+  "tesi.out" 1729095141 2854 c2200113720a67acb41f31f7ad4f6774 "pdflatex"
+  "tesi.tex" 1729095137 1871 2ec9b77adcdeefc663aa70c9c9cc3ced ""
+  "tesi.toc" 1729095141 1479 ebecf90f9f25ea88c2dee009042808da "pdflatex"
   (generated)
   "capitoli/Introduzione.aux"
   "capitoli/Metodi.aux"

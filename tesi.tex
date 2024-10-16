@@ -1,17 +1,32 @@
 \documentclass[12pt,a4paper]{extreport}
 \usepackage[italian]{babel}
-\textwidth=450pt\oddsidemargin=0pt
+
 \usepackage{geometry}
-\topmargin=-50pt
-\textheight=675pt
+
 \usepackage{graphicx}
 \graphicspath{immagini/}
+\usepackage{xcolor}
+
+
 \usepackage{multicol}
 
-\usepackage[colorlinks,allcolors=blue,pagebackref=true]{hyperref}
+\usepackage[colorlinks,allcolors=links,pagebackref=true]{hyperref}
 
 \begin{document}
 
+%formattazione
+\textwidth=450pt
+\topmargin=-50pt
+\textheight=675pt
+
+%colori
+\definecolor{letters}{HTML}{CECECE}
+\definecolor{back}{HTML}{313030}
+\definecolor{links}{HTML}{016AD3}
+\pagecolor{back}
+\color{letters}
+
+%titolo
 \begin{titlepage}
     \topmargin=-50pt
     \begin{center}
@@ -51,12 +66,17 @@
 \tableofcontents
 \pagenumbering{arabic}
 
+%body
 \chapter*{Abstract}
 {Si \`e voluto valutare i metodi e le applicazioni di harvesting possibili con particolare attenzione su alcuni esempi...}
 
 \include{capitoli/Introduzione}
 
 \include{capitoli/Metodi}
+
+
+%biblio
+\cite{test}
 
 \bibliographystyle{unsrt}
 \bibliography{test}

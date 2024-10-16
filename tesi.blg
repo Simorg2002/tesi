@@ -4,8 +4,8 @@ The top-level auxiliary file: tesi.aux
 A level-1 auxiliary file: capitoli/Introduzione.aux
 A level-1 auxiliary file: capitoli/Metodi.aux
 The style file: unsrt.bst
-I found no \citation commands---while reading file tesi.aux
 Database file #1: test.bib
+Warning--I didn't find a database entry for "test"
 You've used 0 entries,
             1791 wiz_defined-function locations,
             447 strings with 3554 characters,
@@ -47,4 +47,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There was 1 error message)
+(There was 1 warning)

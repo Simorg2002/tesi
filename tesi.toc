@@ -16,4 +16,3 @@
 \contentsline {section}{\numberline {2.2}Sorgenti Ambientali}{7}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Generatori Fotovoltaici}{7}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Generatori a Radiofrequenza}{7}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Trasferimentod di Potenza Wireless}{7}{subsection.2.2.3}%
