@@ -123,6 +123,9 @@ INPUT capitoli/Introduzione.aux
 INPUT ./capitoli/Metodi.aux
 INPUT ./capitoli/Metodi.aux
 INPUT capitoli/Metodi.aux
+INPUT ./capitoli/Struttura.aux
+INPUT ./capitoli/Struttura.aux
+INPUT capitoli/Struttura.aux
 OUTPUT tesi.aux
 INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -183,6 +186,12 @@ OUTPUT capitoli/Metodi.aux
 INPUT ./capitoli/metodi.tex
 INPUT ./capitoli/metodi.tex
 INPUT capitoli/metodi.tex
+INPUT ./capitoli/Struttura.tex
+INPUT ./capitoli/Struttura.tex
+OUTPUT capitoli/Struttura.aux
+INPUT ./capitoli/Struttura.tex
+INPUT ./capitoli/Struttura.tex
+INPUT capitoli/Struttura.tex
 INPUT ./tesi.bbl
 INPUT ./tesi.bbl
 INPUT tesi.bbl
@@ -192,6 +201,7 @@ INPUT tesi.brf
 INPUT ./tesi.brf
 INPUT ./tesi.brf
 OUTPUT tesi.brf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT tesi.aux
 INPUT ./capitoli/Introduzione.aux
 INPUT ./capitoli/Introduzione.aux
@@ -199,6 +209,9 @@ INPUT capitoli/Introduzione.aux
 INPUT ./capitoli/Metodi.aux
 INPUT ./capitoli/Metodi.aux
 INPUT capitoli/Metodi.aux
+INPUT ./capitoli/Struttura.aux
+INPUT ./capitoli/Struttura.aux
+INPUT capitoli/Struttura.aux
 INPUT ./tesi.out
 INPUT ./tesi.out
 INPUT ./tesi.brf
@@ -206,5 +219,9 @@ INPUT ./tesi.brf
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
