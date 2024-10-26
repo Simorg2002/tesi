@@ -6,11 +6,17 @@ A level-1 auxiliary file: capitoli/Metodi.aux
 A level-1 auxiliary file: capitoli/Struttura.aux
 The style file: unsrt.bst
 Database file #1: test.bib
+Warning--I didn't find a database entry for "liSmartRailwayTransportation"
+Warning--I didn't find a database entry for "liuCompactHybridizedTriboelectricelectromagnetic2024"
+Warning--I didn't find a database entry for "renWavepoweredCapacitiveDeionization2024"
+Warning--I didn't find a database entry for "alvarezruedaVibrationEnergyHarvesting2024"
+Warning--I didn't find a database entry for "gaoHybridGeneratorEfficient2024"
+Warning--I didn't find a database entry for "deoliveiraDevelopmentHybridEnergy2024"
 Warning--I didn't find a database entry for "AdvancedEnergyHarvesters"
 Warning--I didn't find a database entry for "test"
 You've used 6 entries,
             1791 wiz_defined-function locations,
-            502 strings with 5654 characters,
+            514 strings with 6112 characters,
 and the built_in function-call counts, 1671 in all, are:
 = -- 116
 > -- 126
@@ -49,4 +55,4 @@ warning$ -- 0
 while$ -- 13
 width$ -- 7
 write$ -- 68
-(There were 2 warnings)
+(There were 8 warnings)

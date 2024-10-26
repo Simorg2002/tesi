@@ -8,7 +8,7 @@
 
     I dispositivi indossabili, oltre a sensori e attuatori specifici dell'applicazione, richiedono anche componenti a bassa potenza come processori e antenne. Questi componenti sono necessari per svolgere funzioni di controllo automatico, elaborazione e trasmissione dei segnali misurati. Quando un modulo wireless e' disponibile, invece di conservare i dati, e' possibile inviarli a una hub intermedia o direttamente al destinatario finale in una struttura medica.
 
-    La forma ideale e' piccola abbastanza da svolgere le funzioni volute senza intralciare il paziente. Nelle installazioni invasive e' essenziale che le dimensioni siano ridotte per ababssare i rischi e la complessita' dell'operazione. Anche nel caso non invasivo pero' si preferiscono dispositivi sottili e di piccole dimensioni che possono sostituire o integrasi a capi di abbigliamento. L'aspetto non intrusivo o piacevole puo' incentivare l'uso regolare. Evitare dimenticanze e' infatti importante in pazienti a rischio che richiedono controllo costante. Avere numerosi punti di possibile applicazione permette di usare piu' dispositivi in combinazione. 
+    La forma ideale e' piccola abbastanza da svolgere le funzioni volute senza intralciare il paziente. Nelle installazioni invasive e' essenziale che le dimensioni siano ridotte per ababssare i rischi e la complessita' dell'operazione. Anche nel caso non invasivo pero' si preferiscono dispositivi sottili e di piccole dimensioni che possono sostituire o integrasi a capi di abbigliamento. L'aspetto non intrusivo o piacevole puo' incentivare l'uso regolare. Evitare dimenticanze e' infatti importante in pazienti a rischio che richiedono controllo costante. Avere numerosi punti di possibile applicazione permette di usare piu' dispositivi in combinazione.
     
     Si vuole quindi approfondire uno degli aspetti piu' critici dei dispositivi medici indossabili e impiantabili, ovvero la loro alimentazione. Ogni tipologia avra' necessita' energiteche diverse da pochi microwatt a milliwatt, ma al momento hanno tutti in comune l'uso di batterie come fonte. Gli svantaggi di un sistema a batteria sono evidenti nell'autonomia limitata e il bisogno di ricarica o sostituzione, specialmente quando si parla di dispositivi impantabili. Inoltre i materiali usati nelle batterie sono pesanti e potenzialmente tossici, il che riduce la comapitibilita' all'uso prolungato.
 \end{section}
@@ -22,11 +22,18 @@
 \end{section}
 
 \begin{section}{Apllicazioni Harvester Energetici}
-    Esistono versioni indossabili per la misura non invasiva di molti parametri di interesse rilevante come ECG, EEG, pressione sanguignea, saturazione di ossigeno nel sangue e frequenza respiratoria. Altri dispositivi sono in grado di raccogliere in maniera piu' o meno invasiva fluidi corporei come sangue, sudore o liquido interstiziale per intercettare problemi metabolici.
+    Esistono versioni indossabili per la misura non invasiva di molti parametri di interesse rilevante come ECG, EEG, pressione sanguignea, saturazione di ossigeno nel sangue e frequenza respiratoria. Altri dispositivi sono in grado di raccogliere in maniera piu' o meno invasiva fluidi corporei come sangue, sudore o liquido interstiziale per intercettare problemi metabolici. 
     
-    Monitorare facilmente e con costanza questi parametri consente di individuare lo sviluppo di alcune malattie in anticipo rispetto ai metodi tradizionali, aumentando le probabilita' di successo nel trattamento.
+    Monitorare facilmente e con costanza questi parametri consente di individuare lo sviluppo di alcune malattie in anticipo rispetto ai metodi tradizionali, aumentando le probabilita' di successo nel trattamento. Al momento maggior parte della ricerca in ambito medico cerca di realizzare harvester integrati al sensore che devono azionare, riducendo al minimo le perdite e l'elaborazione in loco. 
 
     Soluzioni con harvester hanno ancora troppi svantaggi rispetto a sola batteria. Tra questi, la bassa densita' energetica e l'affidabilita' incerta li rendono un opzione immatura per scopi medici critici. Questi sono gravosi soprattuto per dispositivi impiantabili che richiedono dimensioni minime e la certezza del funzionamento a lungo termine. I costi di produzione sono alti, dovuti anche alla mancanza di una catena manufatturiera paragonabile a prodotti altamenti diffusi come le batterie. \#
+
+    E' giusto menzionare che e' possibile applicare l'idea di energy harvester anche a dispositivi non mobili. Un'applicazione di interesse e' usarli per recuperare l'energia di scarto da sistemi piu' grandi come macchinari industriali o mezzi di trasporto. In zone dove e' necessario fare monitoraggi, ma manca distribuzione elettrica anche possono essere una soluzione. Questo permetterebbe di azionare una rete distribuita di sensori o attutori autonomi. Alcuni esempi recenti sono: \begin{itemize}
+        \item Monitoraggio della sicurezza e stato dei mezzi di trasporto come treni o auto trasformando l'energia delle vibrazioni \cite{liSmartRailwayTransportation, liuCompactHybridizedTriboelectricelectromagnetic2024}
+        \item Una rete di generatori galleggianti che raccolgono l'energia meccanica delle onde per deionizzare l'acqua marina in loco \cite{renWavepoweredCapacitiveDeionization2024}. 
+        \item Sensori per verificare lo stato di macchinari industriali, sfruttandone le vibrazioni \cite{alvarezruedaVibrationEnergyHarvesting2024, gaoHybridGeneratorEfficient2024}, o il calore \cite{deoliveiraDevelopmentHybridEnergy2024}.
+    \end{itemize}
+    
 \end{section}
 
 

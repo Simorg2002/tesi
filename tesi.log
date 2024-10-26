@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  25 OCT 2024 05:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  26 OCT 2024 04:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -424,12 +424,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []\OT1/cmr/bx/n/17.28 Apllicazioni Har-
  []
 
-) [4]
+[4]
+
+LaTeX Warning: Citation `liSmartRailwayTransportation' on page 5 undefined on input line 32.
+
+
+LaTeX Warning: Citation `liuCompactHybridizedTriboelectricelectromagnetic2024' on page 5 undefined on input line 32.
+
+
+LaTeX Warning: Citation `renWavepoweredCapacitiveDeionization2024' on page 5 undefined on input line 33.
+
+
+LaTeX Warning: Citation `alvarezruedaVibrationEnergyHarvesting2024' on page 5 undefined on input line 34.
+
+
+LaTeX Warning: Citation `gaoHybridGeneratorEfficient2024' on page 5 undefined on input line 34.
+
+
+LaTeX Warning: Citation `deoliveiraDevelopmentHybridEnergy2024' on page 5 undefined on input line 34.
+
+) [5{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 \openout2 = `capitoli/Metodi.aux'.
 
  (./capitoli/metodi.tex
 Capitolo 2.
-[5
+[6
 
 
 
@@ -454,36 +473,36 @@ Underfull \hbox (badness 7759) in paragraph at lines 31--31
 []\OT1/cmr/bx/n/14.4 Generatori Idroe-let-
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\OT1/cmr/bx/n/14.4 Generatori Fo-to-vol-
  []
 
-) [7]
+) [8]
 \openout2 = `capitoli/Struttura.aux'.
 
  (./capitoli/Struttura.tex
 Capitolo 3.
 
-LaTeX Warning: Citation `AdvancedEnergyHarvesters' on page 8 undefined on input line 9.
+LaTeX Warning: Citation `AdvancedEnergyHarvesters' on page 9 undefined on input line 9.
 
-[8
-
-
+[9
 
 
-]) [9]
 
-LaTeX Warning: Citation `test' on page 10 undefined on input line 80.
+
+]) [10]
+
+LaTeX Warning: Citation `test' on page 11 undefined on input line 80.
 
 (./tesi.bbl (./tesi.brf)
 \tf@brf=\write5
 \openout5 = `tesi.brf'.
 
- [10
+ [11
 
 
-]) [11
+]) [12
 
 ] (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
  ***********
@@ -497,21 +516,21 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `tesi.out' has not changed.
 (rerunfilecheck)             Checksum: A5662E1B5DB20BC39004B9CA01F07B7E;3738.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
-(rerunfilecheck)             Checksum: A9484571729B981066EF0E77027926FE;544.
+(rerunfilecheck)             Checksum: 6D4A47D947FF1496C4C3AE66A451BBA1;922.
  ) 
 Here is how much of TeX's memory you used:
- 10995 strings out of 475361
- 176557 string characters out of 5772361
- 1940460 words of memory out of 5000000
- 32922 multiletter control sequences out of 15000+600000
- 566004 words of font info for 63 fonts, out of 8000000 for 9000
+ 11008 strings out of 475361
+ 176921 string characters out of 5772361
+ 1939460 words of memory out of 5000000
+ 32932 multiletter control sequences out of 15000+600000
+ 566341 words of font info for 64 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
- 90i,6n,93p,1434b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tesi.pdf (12 pages, 141979 bytes).
+ 90i,6n,93p,1434b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on tesi.pdf (13 pages, 150195 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
