@@ -6,6 +6,10 @@ A level-1 auxiliary file: capitoli/Metodi.aux
 A level-1 auxiliary file: capitoli/Struttura.aux
 The style file: unsrt.bst
 Database file #1: test.bib
+Warning--I didn't find a database entry for "mirlouContinuousGlycemicMonitoring2024"
+Warning--I didn't find a database entry for "lanHighefficientIntelligentAntibacterial2024"
+Warning--I didn't find a database entry for "simInstantDisinfectingFace"
+Warning--I didn't find a database entry for "PanVivoFlexibleEnergy2024"
 Warning--I didn't find a database entry for "liSmartRailwayTransportation"
 Warning--I didn't find a database entry for "liuCompactHybridizedTriboelectricelectromagnetic2024"
 Warning--I didn't find a database entry for "renWavepoweredCapacitiveDeionization2024"
@@ -14,45 +18,45 @@ Warning--I didn't find a database entry for "gaoHybridGeneratorEfficient2024"
 Warning--I didn't find a database entry for "deoliveiraDevelopmentHybridEnergy2024"
 Warning--I didn't find a database entry for "AdvancedEnergyHarvesters"
 Warning--I didn't find a database entry for "test"
-You've used 6 entries,
+You've used 7 entries,
             1791 wiz_defined-function locations,
-            514 strings with 6112 characters,
-and the built_in function-call counts, 1671 in all, are:
-= -- 116
-> -- 126
+            529 strings with 6631 characters,
+and the built_in function-call counts, 1912 in all, are:
+= -- 135
+> -- 140
 < -- 0
-+ -- 44
-- -- 38
-* -- 170
-:= -- 296
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 6
++ -- 49
+- -- 42
+* -- 191
+:= -- 337
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 54
-empty$ -- 137
-format.name$ -- 38
-if$ -- 339
+cite$ -- 7
+duplicate$ -- 63
+empty$ -- 159
+format.name$ -- 42
+if$ -- 390
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 6
-newline$ -- 33
-num.names$ -- 6
-pop$ -- 6
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 7
+pop$ -- 7
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 19
+skip$ -- 22
 stack$ -- 0
-substring$ -- 106
-swap$ -- 6
+substring$ -- 124
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 13
-width$ -- 7
-write$ -- 68
-(There were 8 warnings)
+while$ -- 15
+width$ -- 8
+write$ -- 79
+(There were 12 warnings)
