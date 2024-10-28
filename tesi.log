@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  27 OCT 2024 06:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  28 OCT 2024 02:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,32 +428,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 LaTeX Warning: Citation `mirlouContinuousGlycemicMonitoring2024' on page 4 undefined on input line 28.
 
 
-LaTeX Warning: Citation `lanHighefficientIntelligentAntibacterial2024' on page 4 undefined on input line 29.
+LaTeX Warning: Citation `jiangSelfgeneratedElectricitydrivenDrug2024' on page 4 undefined on input line 29.
 
 
-LaTeX Warning: Citation `simInstantDisinfectingFace' on page 4 undefined on input line 29.
+LaTeX Warning: Citation `lanHighefficientIntelligentAntibacterial2024' on page 4 undefined on input line 30.
 
 
-LaTeX Warning: Citation `PanVivoFlexibleEnergy2024' on page 4 undefined on input line 30.
+LaTeX Warning: Citation `simInstantDisinfectingFace' on page 4 undefined on input line 30.
 
 [4{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-LaTeX Warning: Citation `liSmartRailwayTransportation' on page 5 undefined on input line 36.
+LaTeX Warning: Citation `PanVivoFlexibleEnergy2024' on page 5 undefined on input line 31.
 
 
-LaTeX Warning: Citation `liuCompactHybridizedTriboelectricelectromagnetic2024' on page 5 undefined on input line 36.
+LaTeX Warning: Citation `liSmartRailwayTransportation' on page 5 undefined on input line 37.
 
 
-LaTeX Warning: Citation `renWavepoweredCapacitiveDeionization2024' on page 5 undefined on input line 37.
+LaTeX Warning: Citation `liuCompactHybridizedTriboelectricelectromagnetic2024' on page 5 undefined on input line 37.
 
 
-LaTeX Warning: Citation `alvarezruedaVibrationEnergyHarvesting2024' on page 5 undefined on input line 38.
+LaTeX Warning: Citation `renWavepoweredCapacitiveDeionization2024' on page 5 undefined on input line 38.
 
 
-LaTeX Warning: Citation `gaoHybridGeneratorEfficient2024' on page 5 undefined on input line 38.
+LaTeX Warning: Citation `alvarezruedaVibrationEnergyHarvesting2024' on page 5 undefined on input line 39.
 
 
-LaTeX Warning: Citation `deoliveiraDevelopmentHybridEnergy2024' on page 5 undefined on input line 38.
+LaTeX Warning: Citation `gaoHybridGeneratorEfficient2024' on page 5 undefined on input line 39.
+
+
+LaTeX Warning: Citation `deoliveiraDevelopmentHybridEnergy2024' on page 5 undefined on input line 39.
 
 ) [5]
 \openout2 = `capitoli/Metodi.aux'.
@@ -528,18 +531,18 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `tesi.out' has not changed.
 (rerunfilecheck)             Checksum: A5662E1B5DB20BC39004B9CA01F07B7E;3738.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
-(rerunfilecheck)             Checksum: 37AD74016DCBF1E9D5ED6DE3DE37FE03;1271.
+(rerunfilecheck)             Checksum: 5A6606BC7AADE13CD60410453330AFDB;1350.
  ) 
 Here is how much of TeX's memory you used:
- 11017 strings out of 475361
- 177265 string characters out of 5772361
+ 11018 strings out of 475361
+ 177311 string characters out of 5772361
  1939460 words of memory out of 5000000
- 32940 multiletter control sequences out of 15000+600000
+ 32941 multiletter control sequences out of 15000+600000
  566341 words of font info for 64 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
- 90i,6n,93p,1434b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,93p,1434b,675s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tesi.pdf (13 pages, 151362 bytes).
+Output written on tesi.pdf (13 pages, 151836 bytes).
 PDF statistics:
  261 PDF objects out of 1000 (max. 8388607)
  223 compressed objects within 3 object streams
