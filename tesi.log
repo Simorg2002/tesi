@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  28 OCT 2024 02:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  29 OCT 2024 04:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -501,6 +501,9 @@ Capitolo 3.
 
 LaTeX Warning: Citation `AdvancedEnergyHarvesters' on page 9 undefined on input line 9.
 
+
+LaTeX Warning: Citation `vallozzi26LatestDevelopments2016' on page 9 undefined on input line 13.
+
 [9
 
 
@@ -531,21 +534,21 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `tesi.out' has not changed.
 (rerunfilecheck)             Checksum: A5662E1B5DB20BC39004B9CA01F07B7E;3738.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
-(rerunfilecheck)             Checksum: 5A6606BC7AADE13CD60410453330AFDB;1350.
+(rerunfilecheck)             Checksum: 3B34C5C8458FE5C4987ED967BCA657CD;1426.
  ) 
 Here is how much of TeX's memory you used:
- 11018 strings out of 475361
- 177311 string characters out of 5772361
+ 11019 strings out of 475361
+ 177346 string characters out of 5772361
  1939460 words of memory out of 5000000
- 32941 multiletter control sequences out of 15000+600000
+ 32942 multiletter control sequences out of 15000+600000
  566341 words of font info for 64 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
  90i,6n,93p,1434b,675s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tesi.pdf (13 pages, 151836 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on tesi.pdf (13 pages, 161094 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
+ 266 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
  45 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
