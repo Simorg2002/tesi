@@ -19,10 +19,11 @@ Warning--I didn't find a database entry for "gaoHybridGeneratorEfficient2024"
 Warning--I didn't find a database entry for "deoliveiraDevelopmentHybridEnergy2024"
 Warning--I didn't find a database entry for "AdvancedEnergyHarvesters"
 Warning--I didn't find a database entry for "vallozzi26LatestDevelopments2016"
+Warning--I didn't find a database entry for "birdDefinitionMisuseReturn2009"
 Warning--I didn't find a database entry for "test"
 You've used 7 entries,
             1791 wiz_defined-function locations,
-            533 strings with 6781 characters,
+            535 strings with 6841 characters,
 and the built_in function-call counts, 1912 in all, are:
 = -- 135
 > -- 140
@@ -61,4 +62,4 @@ warning$ -- 0
 while$ -- 15
 width$ -- 8
 write$ -- 79
-(There were 14 warnings)
+(There were 15 warnings)
