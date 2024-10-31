@@ -11,7 +11,7 @@
     \begin{subsection}{Generatore a Radiofrequenza}
         Per raccogliere energia dalle radiazioni presenti nell'ambiente e' stato scelto un harvester con antenna dimensionata per la sola banda attorno ai \(2.45GHz\) usata per connessioni a corto raggio come Wi-Fi e Bluetooth. La distribuzione di onde radio dovute alle comunicazioni elettroniche e' naturalmente concentrata nelle zone urbane. In aree extraurbane la densita' di potenza dovuta a comunicazioni ad ampio raggio scende vistosamente \cite{ibrahimRadioFrequencyEnergy2022}, la scelta di una banda comunemente usata da dispositivi generalmente vicini all'uomo ha quindi il vantaggio di essere piu' consistente nel tempo. La configurazione per l'antenna e' a patch circolare e le dimensioni ottimali per la risonanza sono stati ottenuti attraverso simulazione. Il valore di specific absorbtion rate (SAR) e' un parametro usato per determinare la potenza assorbita da un'unita' di massa di tessuto corporeo \cite{vallozzi26LatestDevelopments2016}. Secondo le simulazioni il SAR e' \(0.073\frac{W}{Kg}\), ben inferiore ai \(2.0\frac{W}{Kg}\) stabiliti dalle norme europee per antenne mobili. In questo caso il SAR e' usato come parametro di efficienza rispetto alla quantita' di radiazione persa dall'antenna nel corpo. 
 
-        \color{red}{
+        {\color{red}
         Un analizzatore (Keysight N5227B) e' usato per misurare la return loss in condizioni libera e a contatto col corpo. Per le dimensioni scelte si nota effettivamente un picco di \(-10\mathrm{dB}\) nel centro banda desiderato e anche quando l'antenna e' indossata lo stesso picco trasla di solo \(20\mathrm{MHz}\).
         La return loss e' generalmente definita come 
         \begin{equation}
@@ -22,7 +22,8 @@
         \end{equation}
         Questo articolo la usa come una valutazione dell'abbinamento delle impedenze in ingresso e uscita all'antenna, ma il valore ottenuto di\(-10\mathrm{dB}\) e' negativo e indicherebbe una potenza riflessa maggiore delle catturata. Si assume quindi che il valore realmente graficato sia quello del coefficiente di riflessione, che e' spesso sostituito alla return loss \cite{birdDefinitionMisuseReturn2009}. Cio' non detrae pero' dalla conclusione che l'antenna sviluppata e' adatta a ricevere segnali intorno ai \(2.45GHz\).
         }
-        Usando un a camera antieco microonde e' stato graficato lo schema di radiazione in varie posizioni. Lo schema bidimensionale segue le curve dove il guadagno del dispositivo e' massimo. A causa della della configurazione della camera di prova e' stato necessario montare l'antenna su un modello di braccio per caratterizzarne la funzione in flessione. Le misure sono in accordo con le simulazioni e non si presentano particolari differenze nei lobi dovute al cambio di inclinazione o flessione.
+        
+        Usando un a camera antieco microonde e' stato graficato lo schema di radiazione in varie posizioni. Lo schema bidimensionale segue le curve dove il guadagno del dispositivo e' massimo. A causa della della configurazione della camera di prova e' stato necessario montare l'antenna su un modello di braccio per caratterizzarne la funzione in flessione. Le misure sono in accordo con le simulazioni e non si presentano particolari differenze nei lobi dovute al cambio di inclinazione o flessione. Quindi si puo' dire che l'antenna e' adatta al funzionamento quando indossata, anche se in posizioni piane come petto e dorso, ma anche dove e' soggetta alla curvatura come in gambe e braccia.
 
     \end{subsection}
 
