@@ -5,7 +5,7 @@
     \begin{subsection}{Generatore Triboelettrico}
         In generale i generatori di questo tipo sfruttano la capacita' di alcuni materiali di trasferire carica al contatto. La struttura e' formata da uno strato di propilene fluorato (FEP) libero di scorrere sopra ai 2 elettrodi di tessuto connettivo che doppiano da secondo materiale triboelettrico. Questa forma detta a scorrimento libero, oltre ad avere un fattore di forma piu' vantaggioso, e' genera anche piu' energia rispetto al semplice contatto \cite{fuAchievingUltraDurabilityHigh2024}. Il design aperto e i limiti di peso non permettono di ottimizzare altri aspetti che influenzano l'efficienza, come l'umidita' o la pressione tra gli elementi.
         \# figura e spiegazione?
-        La tensione massima ottenibile tra gli elettrodi e' determinata dalla densita' di carica ottenibile dal contatto dei materiali. . Lo stimolo meccanico genera nello strato libero un movimento oscillatorio e quindi una corrente alternata sul circuito che necessita rettifica. La densita' di potenza massima e' \(0.024\mu Wcm^{-2}\) stata misurata collegando un potenziometro e azionando il movimento a \(2Hz\) per simulare il cammino. Per quanto questo dimostri che il dispositivo e' in grado di raccogliere energia dal movimento umano, la densita' di potenza e' molto bassa se paragonata a una batteria tradizionale, ma anche ai requisiti correnti dei dispositivi raccolti in \cite{AdvancedEnergyHarvesters}.
+        La tensione massima ottenibile tra gli elettrodi e' determinata dalla densita' di carica ottenibile dal contatto dei materiali. . Lo stimolo meccanico genera nello strato libero un movimento oscillatorio e quindi una corrente alternata sul circuito che necessita raddrizzamento. La densita' di potenza massima e' \(0.024\mu Wcm^{-2}\) stata misurata collegando un potenziometro e azionando il movimento a \(2Hz\) per simulare il cammino. Per quanto questo dimostri che il dispositivo e' in grado di raccogliere energia dal movimento umano, la densita' di potenza e' molto bassa se paragonata a una batteria tradizionale, ma anche ai requisiti correnti dei dispositivi raccolti in \cite{AdvancedEnergyHarvesters}.
     \end{subsection}
     
     \begin{subsection}{Generatore a Radiofrequenza}
@@ -14,21 +14,27 @@
         {\color{red}
         Un analizzatore (Keysight N5227B) e' usato per misurare la return loss in condizioni libera e a contatto col corpo. Per le dimensioni scelte si nota effettivamente un picco di \(-10\mathrm{dB}\) nel centro banda desiderato e anche quando l'antenna e' indossata lo stesso picco trasla di solo \(20\mathrm{MHz}\).
         La return loss e' generalmente definita come 
-        \begin{equation}
+        \begin{equation*}
             \begin{aligned}
-            &RL=10\log_{10}\left( \frac{P_{in}}{P_{ref}} \right) \mathrm{dB}\\
-            &RL=-20\log_{10}\left|\Gamma\right|\mathrm{dB} \textrm{ , dove }\Gamma=\frac{Z_{out}-Z_{in}}{Z_{in}+Z_{out}}\hspace{2em} \textrm{e' il coefficiente di riflessione}
+            RL&=10\log_{10}\left( \frac{P_{in}}{P_{ref}} \right) \mathrm{dB}\\
+            RL&=-20\log_{10}\left|\Gamma\right|\mathrm{dB} \textrm{ , dove }\Gamma=\frac{Z_{out}-Z_{in}}{Z_{in}+Z_{out}}\hspace{2em} \textrm{e' il coefficiente di riflessione}
             \end{aligned}
-        \end{equation}
+        \end{equation*}
         Questo articolo la usa come una valutazione dell'abbinamento delle impedenze in ingresso e uscita all'antenna, ma il valore ottenuto di\(-10\mathrm{dB}\) e' negativo e indicherebbe una potenza riflessa maggiore delle catturata. Si assume quindi che il valore realmente graficato sia quello del coefficiente di riflessione, che e' spesso sostituito alla return loss \cite{birdDefinitionMisuseReturn2009}. Cio' non detrae pero' dalla conclusione che l'antenna sviluppata e' adatta a ricevere segnali intorno ai \(2.45GHz\).
         }
         
         Usando un a camera antieco microonde e' stato graficato lo schema di radiazione in varie posizioni. Lo schema bidimensionale segue le curve dove il guadagno del dispositivo e' massimo. A causa della della configurazione della camera di prova e' stato necessario montare l'antenna su un modello di braccio per caratterizzarne la funzione in flessione. Le misure sono in accordo con le simulazioni e non si presentano particolari differenze nei lobi dovute al cambio di inclinazione o flessione. Quindi si puo' dire che l'antenna e' adatta al funzionamento quando indossata, anche se in posizioni piane come petto e dorso, ma anche dove e' soggetta alla curvatura come in gambe e braccia.
 
+        Un circuito di raddrizzamento per la corrente in uscita dall'antenna e' strettamente necessario per poi caricare la batteria. Il raddrizzatore e' stato progettato per soddisfare alcuni requisiti essenziali. Deve essere flessibile abbastanza da risultare comodamente indossabile. Deve avere massima efficienza di conversione nelle condizioni previste. In fine, e' necessario che le linee conduttive siano dimensionate con precisione, sia la lunghezza che la larghezza influiscono sul buon accoppiamento all'impedenza dell'antenna. Le microstrip di tessuto conduttivo sono tutte larghe \(4.4\mathrm{mm}\), cosi' come la linea in uscita dall'antenna. Si fa uso di un raddrizzatore a doppia semionda, con topologia di Greinacher (\#disegno) per amplificare la tensione prodotta. Vengono installati due condensatri da \(100]\mathrm{pF}\) e due diodi SMS7630-005FL di tipo Schottky, che hanno migliori prestazioni ad alta frequenza e perdite piu' basse rispetto ai diodi a giunzione. Nel circuito raddrizzatore per il generatore triboelettrico, sono stati scelti invece dei diodi (\# dice gli stessi... costo?), piu' efficaci a basse frequenze. Separando il raddrizzatore dal PMG (power managment circuit), la coppia antenna/raddrizzatore diventa un modulo facilmente integrabile in altri dispositivi. La capacita' del modulo di convertire un potenza in ingresso sotto forma RF in DC e' stata valutata inserendo un resistore da \(1\mathrm{K\Omega}\) come carico. La fonte RF e' stata creata usando un generatore di onde (SG-3000PRO) a vari livelli di potenza. L'efficienza di conversione in potenza e' stato determinato misurando la tensione ai capi del carico. 
+        \begin{equation*}
+            PCE = \frac{P_{carico}}{P_{RF}} = \frac{V_{carico}}{R_{carico}^2P_{RF}}
+        \end{equation*}
+        I risultati sono graficati e mostrano un picco del \(58\%\) nell'efficienza di conversione con \(10\mathrm{dBmW}\) in ingresso.
+ 
     \end{subsection}
 
     \begin{subsection}{Integrazione}
-        
+        I due generatori hanno impedenze incompatibili in uscita, sono infatti tre ordini di grandezza distanti. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria.
     \end{subsection}
 
 \end{section}

@@ -6,60 +6,49 @@ A level-1 auxiliary file: capitoli/Metodi.aux
 A level-1 auxiliary file: capitoli/Struttura.aux
 The style file: unsrt.bst
 Database file #1: test.bib
-Warning--I didn't find a database entry for "mirlouContinuousGlycemicMonitoring2024"
-Warning--I didn't find a database entry for "jiangSelfgeneratedElectricitydrivenDrug2024"
-Warning--I didn't find a database entry for "lanHighefficientIntelligentAntibacterial2024"
-Warning--I didn't find a database entry for "simInstantDisinfectingFace"
 Warning--I didn't find a database entry for "PanVivoFlexibleEnergy2024"
-Warning--I didn't find a database entry for "liSmartRailwayTransportation"
-Warning--I didn't find a database entry for "liuCompactHybridizedTriboelectricelectromagnetic2024"
-Warning--I didn't find a database entry for "renWavepoweredCapacitiveDeionization2024"
-Warning--I didn't find a database entry for "alvarezruedaVibrationEnergyHarvesting2024"
-Warning--I didn't find a database entry for "gaoHybridGeneratorEfficient2024"
-Warning--I didn't find a database entry for "deoliveiraDevelopmentHybridEnergy2024"
 Warning--I didn't find a database entry for "AdvancedEnergyHarvesters"
-Warning--I didn't find a database entry for "vallozzi26LatestDevelopments2016"
-Warning--I didn't find a database entry for "birdDefinitionMisuseReturn2009"
-Warning--I didn't find a database entry for "test"
-You've used 7 entries,
+Warning--empty year in simInstantDisinfectingFace
+Warning--empty year in liSmartRailwayTransportation
+You've used 19 entries,
             1791 wiz_defined-function locations,
-            535 strings with 6841 characters,
-and the built_in function-call counts, 1912 in all, are:
-= -- 135
-> -- 140
-< -- 0
-+ -- 49
-- -- 42
-* -- 191
-:= -- 337
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 7
+            597 strings with 10180 characters,
+and the built_in function-call counts, 5570 in all, are:
+= -- 400
+> -- 416
+< -- 2
++ -- 145
+- -- 126
+* -- 537
+:= -- 963
+add.period$ -- 58
+call.type$ -- 19
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 63
-empty$ -- 159
-format.name$ -- 42
-if$ -- 390
+cite$ -- 21
+duplicate$ -- 189
+empty$ -- 452
+format.name$ -- 126
+if$ -- 1153
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 7
-newline$ -- 38
-num.names$ -- 7
-pop$ -- 7
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 98
+num.names$ -- 21
+pop$ -- 25
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 22
+skip$ -- 75
 stack$ -- 0
-substring$ -- 124
-swap$ -- 7
-text.length$ -- 0
+substring$ -- 371
+swap$ -- 33
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 15
-width$ -- 8
-write$ -- 79
-(There were 15 warnings)
+warning$ -- 2
+while$ -- 45
+width$ -- 21
+write$ -- 212
+(There were 4 warnings)

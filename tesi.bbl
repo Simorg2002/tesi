@@ -1,4 +1,54 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{mirlouContinuousGlycemicMonitoring2024}
+Fariborz Mirlou, Taher Abbasiasl, Hadi Mirzajani, Emin Istif, Muhammad~Junaid Akhtar, Cengiz Cak{\i}r, and Levent Beker.
+\newblock Continuous {{Glycemic Monitoring Enabled}} by {{A Wi-Fi Energy-Harvesting Wearable Sweat-Sensing Patch}}.
+\newblock {\em Advanced Materials Technologies}, 9(7):2301583, 2024.
+
+\bibitem{jiangSelfgeneratedElectricitydrivenDrug2024}
+Lingxi Jiang, Luhan Zhang, Chao Dai, Bo~Zhao, Yin Yang, Zhengzheng Wu, Chao Qu, Liang Zou, Zong-Hong Lin, Yang-Bao Miao, and Yi~Shi.
+\newblock A self-generated electricity-driven drug delivery system for precision management of myopia.
+\newblock {\em Nano Energy}, 119:109040, January 2024.
+
+\bibitem{lanHighefficientIntelligentAntibacterial2024}
+Xingzi Lan, Xinyu Chen, Xin Chen, Hao Fan, Hehui Zheng, Han Wang, and Yadong Tang.
+\newblock High-efficient and intelligent antibacterial face mask integrated with airflow-temperature dual-function sensors for respiratory monitoring and disease prevention.
+\newblock {\em Smart Materials and Structures}, 33(4):045002, March 2024.
+
+\bibitem{simInstantDisinfectingFace}
+Moh~Terng Sim, Zhi~Yin Ee, Yuan~Hao Lim, Tee~Sheng Sia, Daniel Tze~Kheng Ong, Jason Soon~Chye Koay, Boon~Tong Goh, Yoong~Soon Yong, Kean~Chin Aw, Swee~Tiam Tan, and Wee~Chen Gan.
+\newblock Instant {{Disinfecting Face Masks Utilizing Electroporation Powered}} by {{Respiration-Driven Triboelectric Nanogenerators}}.
+\newblock {\em Advanced Functional Materials}, n/a(n/a):2410062.
+
+\bibitem{liSmartRailwayTransportation}
+Ang Li, Chengliang Fan, Hongjie Tang, Zutao Zhang, Genshuo Liu, Linyang He, Jie Zhao, Jianhong Zhou, and Yongli Hu.
+\newblock Smart {{Railway Transportation}}: {{Self-Powered}} and {{Self-Sensing Vibration Energy Harvester}}.
+\newblock {\em Energy Technology}, n/a(n/a):2401253.
+
+\bibitem{liuCompactHybridizedTriboelectricelectromagnetic2024}
+Sheng Liu, Sihua Liao, Dan Liu, Weiming Qing, Kexiang Wei, Linchuan Zhao, and Hongxiang Zou.
+\newblock A compact hybridized triboelectric-electromagnetic road energy harvester for vehicle speed measurement.
+\newblock {\em DeCarbon}, 3:100036, March 2024.
+
+\bibitem{renWavepoweredCapacitiveDeionization2024}
+Jinlong Ren, Liyang Fang, Hang Qu, Tao Zhou, Chunjin Chen, Qi~Wei, Pei Kang~Shen, Lingyu Wan, and Zhi Qun~Tian.
+\newblock A wave-powered capacitive deionization system with in-situ blue energy harvester.
+\newblock {\em Chemical Engineering Journal}, 498:155530, October 2024.
+
+\bibitem{alvarezruedaVibrationEnergyHarvesting2024}
+Asier Alvarez~Rueda, Andreas Petritz, Philipp Sch{\"a}ffner, Markus Postl, Manfred Adler, Maria Belegratis, Jonas Groten, and Barbara Stadlober.
+\newblock Vibration {{Energy Harvesting}} with {{Printed P}}({{VDF}}:{{TrFE}}) {{Transducers}} to {{Power Condition Monitoring Sensors}} for {{Industrial}} and {{Manufacturing Equipment}}.
+\newblock {\em Advanced Engineering Materials}, 26(9):2302140, 2024.
+
+\bibitem{gaoHybridGeneratorEfficient2024}
+Xiang Gao, Juan Cui, Yongqiu Zheng, Xin Li, Kailun Bai, Chunhui Du, and Chenyang Xue.
+\newblock Hybrid generator for efficient vibration energy harvesting and self-powered gear condition monitoring applications in industrial equipment.
+\newblock {\em IEEE Sensors Journal}, pages 1--1, 2024.
+
+\bibitem{deoliveiraDevelopmentHybridEnergy2024}
+Luiz Fernando~Pinto {de Oliveira}, Fl{\'a}vio~Jos{\'e} {de Oliveira Morais}, and Leandro~Tiago Manera.
+\newblock Development of a hybrid energy harvesting system based on thermoelectric and electromagnetic generators for use in industrial electric motors.
+\newblock {\em Sustainable Energy Technologies and Assessments}, 66:103802, June 2024.
 
 \bibitem{liuBiomechanicalEnergyHarvesting2022}
 Mingyi Liu, Feng Qian, Jia Mi, and Lei Zuo.
@@ -34,5 +84,15 @@ Shaoke Fu and Chenguo Hu.
 Husam~Hamid Ibrahim, Mandeep~Jit Singh, Samir~Salem {Al-Bawri}, Sura~Khalil Ibrahim, Mohammad~Tariqul Islam, Ahmed Alzamil, and Md~Shabiul Islam.
 \newblock Radio {{Frequency Energy Harvesting Technologies}}: {{A Comprehensive Review}} on {{Designing}}, {{Methodologies}}, and {{Potential Applications}}.
 \newblock {\em Sensors}, 22(11):4144, January 2022.
+
+\bibitem{vallozzi26LatestDevelopments2016}
+L.~Vallozzi, C.~Hertleer, and H.~Rogier.
+\newblock 26 - {{Latest}} developments in the field of textile antennas.
+\newblock In Vladan Koncar, editor, {\em Smart {{Textiles}} and Their {{Applications}}}, Woodhead {{Publishing Series}} in {{Textiles}}, pages 599--626. Woodhead Publishing, Oxford, January 2016.
+
+\bibitem{birdDefinitionMisuseReturn2009}
+Trevor~S. Bird.
+\newblock Definition and {{Misuse}} of {{Return Loss}} [{{Report}} of the {{Transactions Editor-in-Chief}}].
+\newblock {\em IEEE Antennas and Propagation Magazine}, 51(2):166--167, April 2009.
 
 \end{thebibliography}
