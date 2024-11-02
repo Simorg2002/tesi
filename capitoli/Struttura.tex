@@ -30,11 +30,26 @@
             PCE = \frac{P_{carico}}{P_{RF}} = \frac{V_{carico}}{R_{carico}^2P_{RF}}
         \end{equation*}
         I risultati sono graficati e mostrano un picco del \(58\%\) nell'efficienza di conversione con \(10\mathrm{dBmW}\) in ingresso.
- 
+    \end{subsection}
+\end{section}
+
+\begin{section}{Integrazione}
+    I due generatori hanno impedenze incompatibili in uscita, sono infatti tre ordini di grandezza distanti\#. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria. Il PMC in questo caso deve svolgere le funzioni di: maximum power point tracking (MPPT), undervoltage lockout (UVLO) e protezione di carica. Due microprocessori (ADP5091 e LTC3588), configurati come in figura, gestiscono tutte le funzioni. In particolare l'uscita REG\_OUT dell'ADP offre la tensione di uscita per il dispositivo da collegare all'harvester quando il componente di accumulo ha raggiunto la tensione minima. Il LTC3588 e' usato per gestire l'output del generatore triboelettrico. Un raddrizzatore ad alta efficienza per alte frequenze e' integrato  tra i pin di ingresso, questo funziona anche da blocco per flussi di corrente verso il TEG.
+
+    \begin{subsection}{MPPT}
+        Le tecniche di MPPT cercano di ottimizzare la potenza convertita da un generatore modificando l'impedenza del circuito, in modo da ottenere il massimo prodotto tra tensione e corrente. Il metodo di MPPT e' fractional open circuit voltage (FOCV), come descritto nel datasheet del ADP5091 \cite{ADP5091DatasheetProduct}. Il metodo FOCV e' comunemente usato in campo fotovoltaico, ma il funzionamento del modulo antenna e raddrizzatore e' paragonabile.L'uscita in tensione varia poco all'interno della banda di frequenze interessata, ma varia considerevolemte con l'incidenza delle onde. La tensione in condizione di circuito aperto varia al variare dell'incidenza di onde RF, la MCU ne prende periodicamente un campione, salvandola in un condensatore. La tensione di massima potenza e' calcolata secondo:
+        \begin{equation*}
+            V_{MPPT} = V_{IN}\underbrace{\left(\frac{R_{OC1}}{R_{OC1}+R_{OC2}}\right)}_\mathrm{k}
+         \end{equation*}
+        Il processore cambia poi l'impedenza di ingresso alla porta VIN a cui e' collegato il raddrizzatore in modo da ottenere la tensione ottimale. Il fattore moltiplicativo dato dalle resistenze e' stato determinato sperimentalmente usando una resistenza programmabile mentre l'harvester era sottoposto a diversi livello di irradiazione (\(0\mathrm{dBmW},5\mathrm{dBmW},10\mathrm{dBmW}\). Il valore medio del fattore moltiplicativo e' \(0.5\), per cui sono stati installati due resistori \((R_{OC1},R_{OC2})\) uguali da \(10\mathrm{M\Omega}\). Il periodo di campionamento di default e' \(16\mathrm{s}\), mentre il tempo per il campionamento e' \(256\mathrm{ms}\), nessuno dei due e' stato modificato.
     \end{subsection}
 
-    \begin{subsection}{Integrazione}
-        I due generatori hanno impedenze incompatibili in uscita, sono infatti tre ordini di grandezza distanti. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria.
+    \begin{subsection}{UVLO}
+        L'UVLO e' implementato nel controllore LTC3588, che gestisce la produzione del generatore triboelettrico. Un condensatore \((C_8)\) immagazzina preventivamente l'energia in entrata. Quando la tensione su  \(C_8\) supera la soglia scelta per UVLO, viene stabilita una connessione attraverso un convertitore di tensione step-down per caricare \(C_5\). Quest'ultimo condensatore e' collegato alla batteria, e la sua corrente e' direzionata da un diodo. Sia in ingresso che uscita sono stati usati condensatori elettrolitici al tantalio, per via della migliore capacita', efficienza di carica e bassa corrente di dispersione \cite{torkiElectrolyticCapacitorProperties2023}.
+    \end{subsection}
+
+    \begin{subsection}{Protezione di Carica}
+        Mantere la tensione imposta sulla batteria all'interno di un certo intervallo e' essenziale per ridurne l'usura.
     \end{subsection}
 
 \end{section}

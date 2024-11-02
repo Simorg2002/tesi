@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex tesi"] 1730438133.24148 "tesi.aux" "tesi.bbl" "tesi" 1730438135.05709 0
+["bibtex tesi"] 1730517224.63565 "tesi.aux" "tesi.bbl" "tesi" 1730517226.70041 0
   "./test.bib" 1730438130 122666 c0b188db54c1482df321d298bb299453 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1704255482 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "capitoli/Introduzione.aux" 1730438134 2632 5ad957a361993dc692a96a6d785c9785 "pdflatex"
-  "capitoli/Metodi.aux" 1730438134 2973 3a3ea9d8d54347a649548747b609de6f "pdflatex"
-  "capitoli/Struttura.aux" 1730438134 2119 f34b2cdae79a8c6cb104c2591cd5e8f6 "pdflatex"
-  "tesi.aux" 1730438134 1347 08c57f047171709b0cc6c6f4ac34337d "pdflatex"
+  "capitoli/Introduzione.aux" 1730517225 2632 5ad957a361993dc692a96a6d785c9785 "pdflatex"
+  "capitoli/Metodi.aux" 1730517225 2973 3a3ea9d8d54347a649548747b609de6f "pdflatex"
+  "capitoli/Struttura.aux" 1730517225 2745 3c047ed41592c6296fd05b7676e78a1d "pdflatex"
+  "tesi.aux" 1730517225 1347 b78d80741bec9cb28b15a08e5dc146c4 "pdflatex"
   (generated)
   "tesi.bbl"
   "tesi.blg"
   (rewritten before read)
-["pdflatex"] 1730438133.55277 "c:/Users/simor/Documents/Uni/tesi/tesi.tex" "tesi.pdf" "tesi" 1730438135.05814 0
+["pdflatex"] 1730517224.99429 "c:/Users/simor/Documents/Uni/tesi/tesi.tex" "tesi.pdf" "tesi" 1730517226.70156 0
   "c:/Users/simor/Documents/Uni/tesi/tesi.tex" 1730438076 1856 752fc957001022050f686ca80af36bad ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1704255810 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1704256849 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -107,18 +107,18 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704260350 4626807 094b2b4c15f139120e824e119150df24 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704260416 7983967 4121129dcde634be140ccf3a18dc43bf ""
   "c:/texlive/2023/texmf.cnf" 1704260338 713 e69b156964470283e0530f5060668171 ""
-  "capitoli/Introduzione.aux" 1730438134 2632 5ad957a361993dc692a96a6d785c9785 "pdflatex"
+  "capitoli/Introduzione.aux" 1730517225 2632 5ad957a361993dc692a96a6d785c9785 "pdflatex"
   "capitoli/Introduzione.tex" 1730208700 8148 8b7b024191497711e29a80f89fa8ccb4 ""
-  "capitoli/Metodi.aux" 1730438134 2973 3a3ea9d8d54347a649548747b609de6f "pdflatex"
-  "capitoli/Struttura.aux" 1730438134 2119 f34b2cdae79a8c6cb104c2591cd5e8f6 "pdflatex"
-  "capitoli/Struttura.tex" 1730438133 7878 9730f05fd2d5b3ec86daae83e02bc715 ""
-  "capitoli/metodi.tex" 1730208678 8505 29a4cd145dde5ea354a529929c9b56e1 ""
-  "tesi.aux" 1730438134 1347 08c57f047171709b0cc6c6f4ac34337d "pdflatex"
-  "tesi.bbl" 1730438133 6584 e892e4eb3f83cd5ee01fc9068565a1ef "bibtex tesi"
-  "tesi.brf" 1730438134 1456 2d7fea922639aeba47767e2b935cb3b7 "pdflatex"
-  "tesi.out" 1730438134 3730 70ccc04894177b2825f86de2c4e55566 "pdflatex"
+  "capitoli/Metodi.aux" 1730517225 2973 3a3ea9d8d54347a649548747b609de6f "pdflatex"
+  "capitoli/Struttura.aux" 1730517225 2745 3c047ed41592c6296fd05b7676e78a1d "pdflatex"
+  "capitoli/Struttura.tex" 1730517222 11162 5d852b415a06dbc3d28ba5b934793165 ""
+  "capitoli/metodi.tex" 1730515161 8504 f71b10ffee4687851a93bf23f3cbfaba ""
+  "tesi.aux" 1730517225 1347 b78d80741bec9cb28b15a08e5dc146c4 "pdflatex"
+  "tesi.bbl" 1730517224 6584 e892e4eb3f83cd5ee01fc9068565a1ef "bibtex tesi"
+  "tesi.brf" 1730517225 1607 a54d306e05949640cc1c0f73f6094daf "pdflatex"
+  "tesi.out" 1730517225 4055 302dd1d223c74b0760843b546b106099 "pdflatex"
   "tesi.tex" 1730438076 1856 752fc957001022050f686ca80af36bad ""
-  "tesi.toc" 1730438134 1970 8c540efe90ba3fb6a454acc91788b31e "pdflatex"
+  "tesi.toc" 1730517225 2201 d42dc658a75782992261f1a4f4a591b0 "pdflatex"
   (generated)
   "capitoli/Introduzione.aux"
   "capitoli/Metodi.aux"
