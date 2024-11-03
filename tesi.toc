@@ -25,3 +25,4 @@
 \contentsline {subsection}{\numberline {3.2.1}MPPT}{11}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}UVLO}{12}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Protezione di Carica}{12}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Integrazione}{12}{subsection.3.2.4}%

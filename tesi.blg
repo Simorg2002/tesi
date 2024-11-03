@@ -12,45 +12,45 @@ Warning--I didn't find a database entry for "ADP5091DatasheetProduct"
 Warning--I didn't find a database entry for "torkiElectrolyticCapacitorProperties2023"
 Warning--empty year in simInstantDisinfectingFace
 Warning--empty year in liSmartRailwayTransportation
-You've used 19 entries,
+You've used 18 entries,
             1791 wiz_defined-function locations,
-            601 strings with 10306 characters,
-and the built_in function-call counts, 5570 in all, are:
-= -- 400
-> -- 416
+            593 strings with 9949 characters,
+and the built_in function-call counts, 5258 in all, are:
+= -- 374
+> -- 396
 < -- 2
-+ -- 145
-- -- 126
-* -- 537
-:= -- 963
-add.period$ -- 58
-call.type$ -- 19
-change.case$ -- 19
++ -- 138
+- -- 120
+* -- 505
+:= -- 912
+add.period$ -- 55
+call.type$ -- 18
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 189
-empty$ -- 452
-format.name$ -- 126
-if$ -- 1153
+cite$ -- 20
+duplicate$ -- 180
+empty$ -- 426
+format.name$ -- 120
+if$ -- 1089
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 19
-newline$ -- 98
-num.names$ -- 21
-pop$ -- 25
+int.to.str$ -- 18
+missing$ -- 18
+newline$ -- 93
+num.names$ -- 20
+pop$ -- 24
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 75
+skip$ -- 72
 stack$ -- 0
-substring$ -- 371
-swap$ -- 33
+substring$ -- 340
+swap$ -- 32
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 45
-width$ -- 21
-write$ -- 212
+while$ -- 42
+width$ -- 20
+write$ -- 201
 (There were 6 warnings)
