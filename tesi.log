@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  3 NOV 2024 07:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  3 NOV 2024 19:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -152,6 +152,13 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
+) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count283
+\float@exts=\toks24
+\float@box=\box53
+\@float@everytoks=\toks25
+\@floatcapt=\box54
 ) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
  (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -200,11 +207,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count283
+\c@section@level=\count284
 )
 \@linkdim=\dimen162
-\Hy@linkcounter=\count284
-\Hy@pagecounter=\count285
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -212,7 +219,7 @@ Now handling font encoding PD1 ...
 ) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count286
+\Hy@SavedSpaceFactor=\count287
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -240,7 +247,7 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 ))
-\c@Hy@tempcnt=\count287
+\c@Hy@tempcnt=\count288
  (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -250,7 +257,7 @@ LaTeX Info: Redefining \url on input line 4786.
  (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count288
+\Fld@menulength=\count289
 \Field@Width=\dimen164
 \Fld@charsize=\dimen165
 Package hyperref Info: Hyper figures OFF on input line 6065.
@@ -264,20 +271,20 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count289
-\c@Item=\count290
-\c@Hfootnote=\count291
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
-\Fld@listcount=\count292
-\c@bookmark@seq@number=\count293
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
 \Hy@SectionHShift=\skip53
 ) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count294
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box55
 ) (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
 \openout1 = `tesi.aux'.
 
@@ -346,17 +353,17 @@ italian.ldf    on input line 19.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
+\scratchcounter=\count296
 \scratchdimen=\dimen166
-\scratchbox=\box54
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count298
+\scratchbox=\box56
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count299
 \MPscratchDim=\dimen167
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks27
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -423,56 +430,40 @@ Capitolo 2.
 
  (./capitoli/Struttura.tex
 Capitolo 3.
-<immagini/schema.jpg, id=206, 411.03563pt x 322.95656pt>
+<immagini/schema.jpg, id=206, 164.93004pt x 129.82057pt>
 File: immagini/schema.jpg Graphic file (type jpg)
 <use immagini/schema.jpg>
 Package pdftex.def Info: immagini/schema.jpg  used on input line 5.
-(pdftex.def)             Requested size: 369.92865pt x 290.6582pt.
-
-LaTeX Warning: Citation `AdvancedEnergyHarvesters' on page 9 undefined on input line 14.
-
-<immagini/funzioneTEG.jpg, id=208, 451.6875pt x 531.48563pt>
+(pdftex.def)             Requested size: 360.00137pt x 283.40532pt.
+<immagini/funzioneTEG.jpg, id=210, 120.6511pt x 142.00633pt>
 File: immagini/funzioneTEG.jpg Graphic file (type jpg)
 <use immagini/funzioneTEG.jpg>
-Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 16.
-(pdftex.def)             Requested size: 225.84319pt x 265.74216pt.
+Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 15.
+(pdftex.def)             Requested size: 360.00137pt x 423.81209pt.
 [9
 
 
 
 
  <./immagini/schema.jpg>] [10 <./immagini/funzioneTEG.jpg>]
-<immagini/funzioneRF.jpg, id=227, 411.03563pt x 384.6872pt>
+<immagini/funzioneRF.jpg, id=230, 164.93004pt x 154.4334pt>
 File: immagini/funzioneRF.jpg Graphic file (type jpg)
 <use immagini/funzioneRF.jpg>
-Package pdftex.def Info: immagini/funzioneRF.jpg  used on input line 39.
-(pdftex.def)             Requested size: 205.5173pt x 192.34312pt.
+Package pdftex.def Info: immagini/funzioneRF.jpg  used on input line 41.
+(pdftex.def)             Requested size: 360.00137pt x 337.13644pt.
  [11] [12 <./immagini/funzioneRF.jpg>]
-<immagini/schemaPMC.jpg, id=243, 451.6875pt x 476.53032pt>
+<immagini/schemaPMC.jpg, id=254, 120.6511pt x 127.2869pt>
 File: immagini/schemaPMC.jpg Graphic file (type jpg)
 <use immagini/schemaPMC.jpg>
-Package pdftex.def Info: immagini/schemaPMC.jpg  used on input line 58.
-(pdftex.def)             Requested size: 338.76479pt x 357.39687pt.
-
-
-LaTeX Warning: Citation `ADP5091DatasheetProduct' on page 13 undefined on input line 64.
-
-[13 <./immagini/schemaPMC.jpg>]
-
-LaTeX Warning: Citation `torkiElectrolyticCapacitorProperties2023' on page 14 undefined on input line 72.
-
-[14]
-<immagini/risultati.jpg, id=254, 451.6875pt x 325.215pt>
+Package pdftex.def Info: immagini/schemaPMC.jpg  used on input line 61.
+(pdftex.def)             Requested size: 404.99725pt x 427.36249pt.
+ [13] [14 <./immagini/schemaPMC.jpg>]
+<immagini/risultati.jpg, id=270, 120.6511pt x 86.74812pt>
 File: immagini/risultati.jpg Graphic file (type jpg)
 <use immagini/risultati.jpg>
-Package pdftex.def Info: immagini/risultati.jpg  used on input line 87.
-(pdftex.def)             Requested size: 451.68639pt x 325.2142pt.
-
-Overfull \hbox (33.43271pt too wide) in paragraph at lines 87--89
- [][] 
- []
-
-[15 <./immagini/risultati.jpg>]) [16] (./tesi.bbl (./tesi.brf)
+Package pdftex.def Info: immagini/risultati.jpg  used on input line 92.
+(pdftex.def)             Requested size: 382.50275pt x 275.07802pt.
+ [15]) [16 <./immagini/risultati.jpg>] (./tesi.bbl (./tesi.brf)
 \tf@brf=\write5
 \openout5 = `tesi.brf'.
 
@@ -480,7 +471,19 @@ Overfull \hbox (33.43271pt too wide) in paragraph at lines 87--89
 
 
 
-]) [18] [19] (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
+] [18]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 101.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]\OT1/cmr/m/n/12 ADP5091 Da-ta-sheet and Pro-duct In-fo \OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 Ana-log De-vi-ces.
+ []
+
+) [19] (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -492,21 +495,21 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `tesi.out' has not changed.
 (rerunfilecheck)             Checksum: 84F2D8C633FF8985FE99625D03753C83;4177.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
-(rerunfilecheck)             Checksum: 11734412CE2A908C084BDF03F58ABF8D;1545.
+(rerunfilecheck)             Checksum: C6E44FAD5775DDEF777439BA697A7568;1875.
  ) 
 Here is how much of TeX's memory you used:
- 11682 strings out of 475361
- 187235 string characters out of 5772361
- 1939460 words of memory out of 5000000
- 33567 multiletter control sequences out of 15000+600000
+ 11787 strings out of 475361
+ 189102 string characters out of 5772361
+ 1937460 words of memory out of 5000000
+ 33662 multiletter control sequences out of 15000+600000
  566341 words of font info for 64 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
- 90i,10n,93p,1749b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,10n,93p,1749b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tesi.pdf (20 pages, 735134 bytes).
+Output written on tesi.pdf (20 pages, 1599580 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
  234 words of extra memory for PDF output out of 10000 (max. 10000000)
 

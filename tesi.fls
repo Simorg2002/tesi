@@ -55,6 +55,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -232,6 +234,9 @@ INPUT ./tesi.brf
 INPUT ./tesi.brf
 OUTPUT tesi.brf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
 INPUT tesi.aux
 INPUT ./capitoli/Introduzione.aux
 INPUT ./capitoli/Introduzione.aux

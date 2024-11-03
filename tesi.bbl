@@ -75,6 +75,11 @@ Shaoke Fu and Chenguo Hu.
 \newblock Achieving {{Ultra-Durability}} and {{High Output Performance}} of {{Triboelectric Nanogenerators}}.
 \newblock {\em Advanced Functional Materials}, 34(9):2308138, 2024.
 
+\bibitem{gaoAdvancedEnergyHarvesters2024}
+Ziyan Gao, Yang Zhou, Jin Zhang, Javad Foroughi, Shuhua Peng, Ray~H. Baughman, Zhong~Lin Wang, and Chun~H. Wang.
+\newblock Advanced {{Energy Harvesters}} and {{Energy Storage}} for {{Powering Wearable}} and {{Implantable Medical Devices}}.
+\newblock {\em Advanced Materials}, 36(42):2404492, 2024.
+
 \bibitem{ibrahimRadioFrequencyEnergy2022}
 Husam~Hamid Ibrahim, Mandeep~Jit Singh, Samir~Salem {Al-Bawri}, Sura~Khalil Ibrahim, Mohammad~Tariqul Islam, Ahmed Alzamil, and Md~Shabiul Islam.
 \newblock Radio {{Frequency Energy Harvesting Technologies}}: {{A Comprehensive Review}} on {{Designing}}, {{Methodologies}}, and {{Potential Applications}}.
@@ -89,5 +94,14 @@ L.~Vallozzi, C.~Hertleer, and H.~Rogier.
 Trevor~S. Bird.
 \newblock Definition and {{Misuse}} of {{Return Loss}} [{{Report}} of the {{Transactions Editor-in-Chief}}].
 \newblock {\em IEEE Antennas and Propagation Magazine}, 51(2):166--167, April 2009.
+
+\bibitem{ADP5091DatasheetProduct}
+{{ADP5091 Datasheet}} and {{Product Info}} {\textbar} {{Analog Devices}}.
+\newblock https://www.analog.com/en/products/ADP5091.html.
+
+\bibitem{torkiElectrolyticCapacitorProperties2023}
+Jami Torki, Charles Joubert, and Ali Sari.
+\newblock Electrolytic capacitor: {{Properties}} and operation.
+\newblock {\em Journal of Energy Storage}, 58:106330, February 2023.
 
 \end{thebibliography}

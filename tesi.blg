@@ -7,50 +7,47 @@ A level-1 auxiliary file: capitoli/Struttura.aux
 The style file: unsrt.bst
 Database file #1: test.bib
 Warning--I didn't find a database entry for "PanVivoFlexibleEnergy2024"
-Warning--I didn't find a database entry for "AdvancedEnergyHarvesters"
-Warning--I didn't find a database entry for "ADP5091DatasheetProduct"
-Warning--I didn't find a database entry for "torkiElectrolyticCapacitorProperties2023"
 Warning--empty year in simInstantDisinfectingFace
 Warning--empty year in liSmartRailwayTransportation
-You've used 18 entries,
+You've used 21 entries,
             1791 wiz_defined-function locations,
-            593 strings with 9949 characters,
-and the built_in function-call counts, 5258 in all, are:
-= -- 374
-> -- 396
+            606 strings with 10493 characters,
+and the built_in function-call counts, 5891 in all, are:
+= -- 421
+> -- 434
 < -- 2
-+ -- 138
-- -- 120
-* -- 505
-:= -- 912
-add.period$ -- 55
-call.type$ -- 18
-change.case$ -- 18
++ -- 152
+- -- 131
+* -- 555
+:= -- 1013
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 180
-empty$ -- 426
-format.name$ -- 120
-if$ -- 1089
+cite$ -- 23
+duplicate$ -- 203
+empty$ -- 490
+format.name$ -- 131
+if$ -- 1227
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 18
-newline$ -- 93
-num.names$ -- 20
-pop$ -- 24
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 107
+num.names$ -- 22
+pop$ -- 32
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 72
+skip$ -- 84
 stack$ -- 0
-substring$ -- 340
-swap$ -- 32
+substring$ -- 379
+swap$ -- 35
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 42
-width$ -- 20
-write$ -- 201
-(There were 6 warnings)
+while$ -- 46
+width$ -- 23
+write$ -- 230
+(There were 3 warnings)
