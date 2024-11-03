@@ -18,11 +18,11 @@
 \contentsline {subsection}{\numberline {2.2.2}Generatori a Radiofrequenza (RF)}{7}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Generatori Ibridi}{8}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Esempio}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Generatori}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Generatore Triboelettrico}{9}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Generatore a Radiofrequenza}{10}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Integrazione}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}MPPT}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}UVLO}{12}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Protezione di Carica}{12}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Integrazione}{12}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.1}Generatori}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Generatore Triboelettrico}{10}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Generatore a Radiofrequenza}{11}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Integrazione}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}MPPT}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}UVLO}{14}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Protezione di Carica}{14}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Integrazione}{15}{subsection.3.2.4}%

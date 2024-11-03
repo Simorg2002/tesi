@@ -1,15 +1,27 @@
 \chapter{Esempio}
     Si sceglie come esempio \cite{kouWearableAllFabricHybrid2024} che offre una realizzazione pratica di un harvester ibrido. L'obbiettivo di questo generatore e' proporre un dispostivo riproducibile in scala e facilmente integrabile nel vestiario. Per fare questo usa una struttura interamente fondata su una base di tessuto e accoppia un generatore triboelettrico a uno RF. Un tessuto elettricamente conduttivo disponibile sul mercato e' usato per realizzare le connessioni su ambo i lati di uno strato di tessuto comune di cotone. In questo modo l'harvester diventa altamente flessibile e facilmente ingrabile in capi di abbigliamento. Avere 2 fonti distinte aumenta le probabilita' che il dispositvo sia sempre in funzione, inoltre queste in particolare si prestano a un design planare.
+    
+    \begin{figure}[hbt!]
+        \includegraphics[scale=0.9]{schema.jpg}
+        \centering
+        \caption{a) Modello della struttura dell'harvester preso in esempio. b) Schema del funzionamento generale dell'harvester.}
+    \end{figure}
 
 \begin{section}{Generatori}
     \begin{subsection}{Generatore Triboelettrico}
         In generale i generatori di questo tipo sfruttano la capacita' di alcuni materiali di trasferire carica al contatto. La struttura e' formata da uno strato di propilene fluorato (FEP) libero di scorrere sopra ai 2 elettrodi di tessuto connettivo che doppiano da secondo materiale triboelettrico. Questa forma detta a scorrimento libero, oltre ad avere un fattore di forma piu' vantaggioso, e' genera anche piu' energia rispetto al semplice contatto \cite{fuAchievingUltraDurabilityHigh2024}. Il design aperto e i limiti di peso non permettono di ottimizzare altri aspetti che influenzano l'efficienza, come l'umidita' o la pressione tra gli elementi.
         \# figura e spiegazione?
         La tensione massima ottenibile tra gli elettrodi e' determinata dalla densita' di carica ottenibile dal contatto dei materiali. . Lo stimolo meccanico genera nello strato libero un movimento oscillatorio e quindi una corrente alternata sul circuito che necessita raddrizzamento. La densita' di potenza massima e' \(0.024\mu Wcm^{-2}\) stata misurata collegando un potenziometro e azionando il movimento a \(2Hz\) per simulare il cammino. Per quanto questo dimostri che il dispositivo e' in grado di raccogliere energia dal movimento umano, la densita' di potenza e' molto bassa se paragonata a una batteria tradizionale, ma anche ai requisiti correnti dei dispositivi raccolti in \cite{AdvancedEnergyHarvesters}.
+        \begin{figure}[hbt!]
+            \includegraphics[scale=0.5]{funzioneTEG.jpg}
+            \centering
+            \caption{a) Schema del funzionamento del generatore triboelettrico. b) Potenziali simulati a spostamento iniziale, medio e massimo. c) Uscita in tensione a diverse frequenze di scorrimento. d) Dipendenza della tensione e potenza prodotte dal carico. e) Tempi di carica di condensatori commerciali.}
+        \end{figure}
     \end{subsection}
     
     \begin{subsection}{Generatore a Radiofrequenza}
         Per raccogliere energia dalle radiazioni presenti nell'ambiente e' stato scelto un harvester con antenna dimensionata per la sola banda attorno ai \(2.45GHz\) usata per connessioni a corto raggio come Wi-Fi e Bluetooth. La distribuzione di onde radio dovute alle comunicazioni elettroniche e' naturalmente concentrata nelle zone urbane. In aree extraurbane la densita' di potenza dovuta a comunicazioni ad ampio raggio scende vistosamente \cite{ibrahimRadioFrequencyEnergy2022}, la scelta di una banda comunemente usata da dispositivi generalmente vicini all'uomo ha quindi il vantaggio di essere piu' consistente nel tempo. La configurazione per l'antenna e' a patch circolare e le dimensioni ottimali per la risonanza sono stati ottenuti attraverso simulazione. Il valore di specific absorbtion rate (SAR) e' un parametro usato per determinare la potenza assorbita da un'unita' di massa di tessuto corporeo \cite{vallozzi26LatestDevelopments2016}. Secondo le simulazioni il SAR e' \(0.073\frac{W}{Kg}\), ben inferiore ai \(2.0\frac{W}{Kg}\) stabiliti dalle norme europee per antenne mobili. In questo caso il SAR e' usato come parametro di efficienza rispetto alla quantita' di radiazione persa dall'antenna nel corpo. 
+
 
         {\color{red}
         Un analizzatore (Keysight N5227B) e' usato per misurare la return loss in condizioni libera e a contatto col corpo. Per le dimensioni scelte si nota effettivamente un picco di \(-10\mathrm{dB}\) nel centro banda desiderato e anche quando l'antenna e' indossata lo stesso picco trasla di solo \(20\mathrm{MHz}\).
@@ -22,6 +34,12 @@
         \end{equation*}
         Questo articolo la usa come una valutazione dell'abbinamento delle impedenze in ingresso e uscita all'antenna, ma il valore ottenuto di\(-10\mathrm{dB}\) e' negativo e indicherebbe una potenza riflessa maggiore delle catturata. Si assume quindi che il valore realmente graficato sia quello del coefficiente di riflessione, che e' spesso sostituito alla return loss \cite{birdDefinitionMisuseReturn2009}. Cio' non detrae pero' dalla conclusione che l'antenna sviluppata e' adatta a ricevere segnali intorno ai \(2.45GHz\).
         }
+
+        \begin{figure}[hbt!]
+            \includegraphics[scale=0.5]{funzioneRF.jpg}
+            \centering
+            \caption{a) Struttura dell'antenna. b) Coefficiente di riflessione simulato con diversi diametri. c) Coefficiente di riflessione misurato con antenna piatta e attaccata al corpo. d) Schema di radizione con antenna piatta sul piano xoz. e) Schema di radizione con antenna piatta sul piano xoy. f) Schema di radizione con antenna flessa sul piano xoz. g) Schema della struttura del raddrizzatore. h) Misure e simulazione del coefficiente di riflessione quando l'antenna e' piata o attaccata a un braccio. i) Corrente DC e efficienza di conversione della potenza misurata e simulata rispetto alla potenza in ingresso.}
+        \end{figure}
         
         Usando un a camera antieco microonde e' stato graficato lo schema di radiazione in varie posizioni. Lo schema bidimensionale segue le curve dove il guadagno del dispositivo e' massimo. A causa della della configurazione della camera di prova e' stato necessario montare l'antenna su un modello di braccio per caratterizzarne la funzione in flessione. Le misure sono in accordo con le simulazioni e non si presentano particolari differenze nei lobi dovute al cambio di inclinazione o flessione. Quindi si puo' dire che l'antenna e' adatta al funzionamento quando indossata, anche se in posizioni piane come petto e dorso, ma anche dove e' soggetta alla curvatura come in gambe e braccia.
 
@@ -35,6 +53,12 @@
 
 \begin{section}{Integrazione}
     I due generatori hanno impedenze incompatibili in uscita, sono infatti tre ordini di grandezza distanti\#. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria. Il PMC in questo caso deve svolgere le funzioni di: maximum power point tracking (MPPT), undervoltage lockout (UVLO) e protezione di carica. Due microprocessori (ADP5091 e LTC3588), configurati come in figura, gestiscono tutte le funzioni. Sono entrambi progettati per applicazioni a bassa potenza e non richiedono alimentazioni oltre quella prodotta dall'harvester stesso. Il ADP5091 e' usato per gestire l'output del generatore RF e proteggere la batteria. In particolare l'uscita REG\_OUT dell'ADP offre la tensione di uscita per il dispositivo da collegare all'harvester quando il componente di accumulo ha raggiunto la tensione minima. Il LTC3588 e' usato per gestire l'output del generatore triboelettrico. Un raddrizzatore ad alta efficienza per alte frequenze e' integrato  tra i pin di ingresso, questo funziona anche da blocco per flussi di corrente verso il TEG.
+
+    \begin{figure}[hbt!]
+        \includegraphics[scale=0.75]{schemaPMC.jpg}
+        \centering
+        \caption{a) Schema circuitale del PMC. b) Vista dall'alto del PMC assemblato sul tessuto. c) Dipendenza di corrente e potenza dalla tensione all'uscita del raddrizzatore, per diversi livelli di potenza in ingresso. d) Crescita del potenziale misurata in fase di carica.}
+    \end{figure}
 
     \begin{subsection}{MPPT}
         Le tecniche di MPPT cercano di ottimizzare la potenza convertita da un generatore modificando l'impedenza del circuito, in modo da ottenere il massimo prodotto tra tensione e corrente. Il metodo di MPPT e' fractional open circuit voltage (FOCV), come descritto nel datasheet del ADP5091 \cite{ADP5091DatasheetProduct}. Il metodo FOCV e' comunemente usato in campo fotovoltaico, ma il funzionamento del modulo antenna e raddrizzatore e' paragonabile.L'uscita in tensione varia poco all'interno della banda di frequenze interessata, ma varia considerevolemte con l'incidenza delle onde. La tensione in condizione di circuito aperto varia al variare dell'incidenza di onde RF, la MCU ne prende periodicamente un campione, salvandola in un condensatore. La tensione di massima potenza e' calcolata secondo:
@@ -62,7 +86,7 @@
         \begin{figure}
             \includegraphics{risultati.jpg}
             \centering
-            \caption{Risultati sperimentali dell'harvester. a) Tempi di carica singoli e modalita' ibrida. b) Tempi di funzionamento dispositivi reali. c) Configurazione sensore di temperatura. d) Configurazione orologio}
+            \caption{a) Tempi di carica singoli e modalita' ibrida. b) Tempi di funzionamento dispositivi reali. c) Configurazione sensore di temperatura. d) Configurazione orologio}
         \end{figure}
         
         I tempi di carica dei generatori singoli e la modalita' ibrida sono stati raccolti in un grafico. Da qui si puo' notare come la potenza generata dalla parte triboelettrica sia trascurabile rispetto a quella generata dall'antenna. In questo caso il funzionamento ibrido e' svantaggioso, in quanto la densita' di potenza aumenterebbe se il dispositivo fosse limitato a una fonte RF. Essendo un harvester sviluppato per uso esterno avvolto ad un arto, diminuire ulteriormente le dimensioni sul piano non e' particolarmente vantaggioso. Per cui, avere il basso flusso energetico raccolto dal movimento potrebbe essere comunque vantaggioso, in particolare vista la possibilita' di produrlo in modo semplice. Andrebbero pero' considerate alternative come fotovoltaico o termoelettrico, che nella stessa posizione non si trovano in condizioni di bassa efficienza come il triboelettrico. 
