@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.1.4}Generatori Elettrostatici}{7}{subsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.1.5}Generatori Elettromagnetici}{7}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Celle a Biocombustibili}{7}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Generatori Idroelettrici}{8}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.7}Generatori Igroelettrici}{8}{subsection.2.1.7}%
 \contentsline {section}{\numberline {2.2}Sorgenti Ambientali}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Generatori Fotovoltaici}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Generatori a Radiofrequenza (RF)}{8}{subsection.2.2.2}%
@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {3.1.1}Generatore Triboelettrico}{11}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Generatore a Radiofrequenza}{12}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Integrazione}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}MPPT}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}MPPT}{15}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}UVLO}{16}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Protezione di Carica}{16}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Integrazione}{16}{subsection.3.2.4}%
