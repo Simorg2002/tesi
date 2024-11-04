@@ -6,48 +6,47 @@ A level-1 auxiliary file: capitoli/Metodi.aux
 A level-1 auxiliary file: capitoli/Struttura.aux
 The style file: unsrt.bst
 Database file #1: test.bib
-Warning--I didn't find a database entry for "PanVivoFlexibleEnergy2024"
 Warning--empty year in simInstantDisinfectingFace
 Warning--empty year in liSmartRailwayTransportation
-You've used 21 entries,
+You've used 22 entries,
             1791 wiz_defined-function locations,
-            606 strings with 10493 characters,
-and the built_in function-call counts, 5891 in all, are:
-= -- 421
-> -- 434
+            610 strings with 10885 characters,
+and the built_in function-call counts, 6275 in all, are:
+= -- 440
+> -- 481
 < -- 2
-+ -- 152
-- -- 131
-* -- 555
-:= -- 1013
-add.period$ -- 63
-call.type$ -- 21
-change.case$ -- 21
++ -- 168
+- -- 146
+* -- 598
+:= -- 1087
+add.period$ -- 66
+call.type$ -- 22
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 203
-empty$ -- 490
-format.name$ -- 131
-if$ -- 1227
+cite$ -- 24
+duplicate$ -- 212
+empty$ -- 512
+format.name$ -- 146
+if$ -- 1300
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 20
-newline$ -- 107
-num.names$ -- 22
-pop$ -- 32
+int.to.str$ -- 22
+missing$ -- 21
+newline$ -- 112
+num.names$ -- 23
+pop$ -- 33
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 84
+skip$ -- 87
 stack$ -- 0
-substring$ -- 379
-swap$ -- 35
+substring$ -- 397
+swap$ -- 36
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 46
-width$ -- 23
-write$ -- 230
-(There were 3 warnings)
+while$ -- 48
+width$ -- 24
+write$ -- 241
+(There were 2 warnings)
