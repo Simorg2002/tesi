@@ -190,6 +190,10 @@ INPUT ./capitoli/Introduzione.tex
 INPUT ./capitoli/Introduzione.tex
 INPUT capitoli/Introduzione.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./immagini/classificazioni_fonti.png
+INPUT ./immagini/classificazioni_fonti.png
+INPUT ./immagini/classificazioni_fonti.png
+INPUT ./immagini/classificazioni_fonti.png
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./capitoli/metodi.tex
