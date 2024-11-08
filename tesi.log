@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  8 NOV 2024 04:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  8 NOV 2024 04:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,55 +436,54 @@ Capitolo 3.
 File: immagini/schema.jpg Graphic file (type jpg)
 <use immagini/schema.jpg>
 Package pdftex.def Info: immagini/schema.jpg  used on input line 5.
-(pdftex.def)             Requested size: 360.00137pt x 283.40532pt.
+(pdftex.def)             Requested size: 314.99863pt x 247.97693pt.
+<immagini/funzioneTEG.jpg, id=227, 120.6511pt x 142.00633pt>
+File: immagini/funzioneTEG.jpg Graphic file (type jpg)
+<use immagini/funzioneTEG.jpg>
+Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 15.
+(pdftex.def)             Requested size: 360.00137pt x 423.81209pt.
 [10
 
 
 
 
-]
-<immagini/funzioneTEG.jpg, id=232, 120.6511pt x 142.00633pt>
-File: immagini/funzioneTEG.jpg Graphic file (type jpg)
-<use immagini/funzioneTEG.jpg>
-Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 15.
-(pdftex.def)             Requested size: 360.00137pt x 423.81209pt.
- [11 <./immagini/schema.jpg>] [12 <./immagini/funzioneTEG.jpg>]
-<immagini/funzioneRF.jpg, id=256, 164.93004pt x 154.4334pt>
+ <./immagini/schema.jpg>] [11 <./immagini/funzioneTEG.jpg>]
+<immagini/funzioneRF.jpg, id=247, 164.93004pt x 154.4334pt>
 File: immagini/funzioneRF.jpg Graphic file (type jpg)
 <use immagini/funzioneRF.jpg>
 Package pdftex.def Info: immagini/funzioneRF.jpg  used on input line 41.
 (pdftex.def)             Requested size: 360.00137pt x 337.13644pt.
- [13]
-<immagini/Greinacher.png, id=268, 1320.935pt x 476.78125pt>
+ [12]
+<immagini/Greinacher.png, id=264, 1320.935pt x 476.78125pt>
 File: immagini/Greinacher.png Graphic file (type png)
 <use immagini/Greinacher.png>
 Package pdftex.def Info: immagini/Greinacher.png  used on input line 52.
 (pdftex.def)             Requested size: 270.00275pt x 97.45705pt.
- [14 <./immagini/funzioneRF.jpg> <./immagini/Greinacher.png>]
-<immagini/schemaPMC.jpg, id=277, 120.6511pt x 127.2869pt>
+ [13 <./immagini/funzioneRF.jpg>]
+<immagini/schemaPMC.jpg, id=271, 120.6511pt x 127.2869pt>
 File: immagini/schemaPMC.jpg Graphic file (type jpg)
 <use immagini/schemaPMC.jpg>
 Package pdftex.def Info: immagini/schemaPMC.jpg  used on input line 70.
 (pdftex.def)             Requested size: 404.99725pt x 427.36249pt.
- [15] [16 <./immagini/schemaPMC.jpg>]
-<immagini/risultati.jpg, id=293, 120.6511pt x 86.74812pt>
+ [14 <./immagini/Greinacher.png>] [15 <./immagini/schemaPMC.jpg>]
+<immagini/risultati.jpg, id=289, 120.6511pt x 86.74812pt>
 File: immagini/risultati.jpg Graphic file (type jpg)
 <use immagini/risultati.jpg>
 Package pdftex.def Info: immagini/risultati.jpg  used on input line 101.
 (pdftex.def)             Requested size: 382.50275pt x 275.07802pt.
- [17]) [18 <./immagini/risultati.jpg>]
+ [16]) [17 <./immagini/risultati.jpg>]
 Capitolo 4.
 (./tesi.bbl (./tesi.brf)
 \tf@brf=\write5
 \openout5 = `tesi.brf'.
 
- [19
+ [18
 
 
 
-] [20
+] [19
 
-] [21]
+] [20]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 101.
  (c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -496,7 +495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\OT1/cmr/m/n/12 ADP5091 Da-ta-sheet and Pro-duct In-fo \OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 Ana-log De-vi-ces.
  []
 
-) [22] (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
+) [21] (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -504,21 +503,21 @@ L3 programming layer <2023-12-11>
 Package rerunfilecheck Info: File `tesi.out' has not changed.
 (rerunfilecheck)             Checksum: 30C4BC6AFE75C3510627E4F50F3BE652;4276.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
-(rerunfilecheck)             Checksum: 191A5EEE07CCD8EAB0D2B20DB6D61377;1802.
+(rerunfilecheck)             Checksum: 180607F42F0A86F2F63D1861257570EB;1802.
  ) 
 Here is how much of TeX's memory you used:
- 11813 strings out of 475361
- 189776 string characters out of 5772361
- 1936460 words of memory out of 5000000
+ 11812 strings out of 475361
+ 189769 string characters out of 5772361
+ 1938460 words of memory out of 5000000
  33682 multiletter control sequences out of 15000+600000
  566341 words of font info for 64 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
- 90i,10n,93p,1448b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,10n,93p,1448b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tesi.pdf (23 pages, 1666458 bytes).
+Output written on tesi.pdf (22 pages, 1665840 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 361 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 358 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 

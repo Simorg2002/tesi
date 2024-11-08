@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex tesi"] 1731037373.44082 "tesi.aux" "tesi.bbl" "tesi" 1731037556.49283 0
+["bibtex tesi"] 1731037875.92714 "tesi.aux" "tesi.bbl" "tesi" 1731037945.76506 0
   "./test.bib" 1730656320 126935 0da1242efbc0f4ad8d8bab20b52922e3 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/base/unsrt.bst" 1704255482 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "capitoli/Introduzione.aux" 1731037555 3046 958182f4c923fe904d0b976bd26bbe23 "pdflatex"
-  "capitoli/Metodi.aux" 1731037555 2880 818b91bc60922c9af82b23c99efd7971 "pdflatex"
-  "capitoli/Struttura.aux" 1731037555 7981 7d36d54e67b2b0526f52e34802f9874f "pdflatex"
-  "tesi.aux" 1731037555 1622 af5a063e1f710d8f5c3ea02ae1f44169 "pdflatex"
+  "capitoli/Introduzione.aux" 1731037944 3046 958182f4c923fe904d0b976bd26bbe23 "pdflatex"
+  "capitoli/Metodi.aux" 1731037944 2880 818b91bc60922c9af82b23c99efd7971 "pdflatex"
+  "capitoli/Struttura.aux" 1731037944 7981 2491ec77a8777f29d1f13a218f12736e "pdflatex"
+  "tesi.aux" 1731037944 1622 7bbd7382d8334dcc6fc614805e7c80f8 "pdflatex"
   (generated)
   "tesi.bbl"
   "tesi.blg"
   (rewritten before read)
-["pdflatex"] 1731037554.7706 "c:/Users/simor/Documents/Uni/tesi/tesi.tex" "tesi.pdf" "tesi" 1731037556.49383 0
+["pdflatex"] 1731037943.94531 "c:/Users/simor/Documents/Uni/tesi/tesi.tex" "tesi.pdf" "tesi" 1731037945.76639 0
   "c:/Users/simor/Documents/Uni/tesi/tesi.tex" 1731037554 3290 c47e2d75b6ee188e85d6c4fb17c40786 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1704255810 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1704256849 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -110,11 +110,11 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1704260350 4626807 094b2b4c15f139120e824e119150df24 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1704260416 7983967 4121129dcde634be140ccf3a18dc43bf ""
   "c:/texlive/2023/texmf.cnf" 1704260338 713 e69b156964470283e0530f5060668171 ""
-  "capitoli/Introduzione.aux" 1731037555 3046 958182f4c923fe904d0b976bd26bbe23 "pdflatex"
+  "capitoli/Introduzione.aux" 1731037944 3046 958182f4c923fe904d0b976bd26bbe23 "pdflatex"
   "capitoli/Introduzione.tex" 1730702312 8570 c3107a8fed6ce917a521b1ac03b23b67 ""
-  "capitoli/Metodi.aux" 1731037555 2880 818b91bc60922c9af82b23c99efd7971 "pdflatex"
-  "capitoli/Struttura.aux" 1731037555 7981 7d36d54e67b2b0526f52e34802f9874f "pdflatex"
-  "capitoli/Struttura.tex" 1731037371 17081 403282c063656c390958bff473e7f5b0 ""
+  "capitoli/Metodi.aux" 1731037944 2880 818b91bc60922c9af82b23c99efd7971 "pdflatex"
+  "capitoli/Struttura.aux" 1731037944 7981 2491ec77a8777f29d1f13a218f12736e "pdflatex"
+  "capitoli/Struttura.tex" 1731037943 17042 501da5184258a60668f5cfc8fba3c921 ""
   "capitoli/metodi.tex" 1730956942 9656 2a9b7363daab89d55b95587b0bead04c ""
   "immagini/Greinacher.png" 1730959288 35459 4442a8d4abd7c3d3e463b7491b7658f4 ""
   "immagini/classificazioni_fonti.png" 1730694317 129951 45aa20c10fb466a047123086db2efc70 ""
@@ -123,12 +123,12 @@
   "immagini/risultati.jpg" 1730658197 166165 7cc4d6a7338584fa4b5e9c8819c10cbe ""
   "immagini/schema.jpg" 1730658122 305957 be0da31096f7f2fd8f08452de416cf58 ""
   "immagini/schemaPMC.jpg" 1730658189 229403 afec6e3e7a0c0859de5f5d4e9b46425f ""
-  "tesi.aux" 1731037555 1622 af5a063e1f710d8f5c3ea02ae1f44169 "pdflatex"
-  "tesi.bbl" 1731037373 7131 ec9c41419e334b7f2d9857bb20e9e1fd "bibtex tesi"
-  "tesi.brf" 1731037555 1802 191a5eee07ccd8eab0d2b20db6d61377 "pdflatex"
-  "tesi.out" 1731037555 4276 30c4bc6afe75c3510627e4f50f3be652 "pdflatex"
+  "tesi.aux" 1731037944 1622 7bbd7382d8334dcc6fc614805e7c80f8 "pdflatex"
+  "tesi.bbl" 1731037876 7131 ec9c41419e334b7f2d9857bb20e9e1fd "bibtex tesi"
+  "tesi.brf" 1731037944 1802 180607f42f0a86f2f63d1861257570eb "pdflatex"
+  "tesi.out" 1731037944 4276 30c4bc6afe75c3510627e4f50f3be652 "pdflatex"
   "tesi.tex" 1731037554 3290 c47e2d75b6ee188e85d6c4fb17c40786 ""
-  "tesi.toc" 1731037555 2355 81e26be922f687e775a5056aa7533067 "pdflatex"
+  "tesi.toc" 1731037944 2355 d7e09e1111dda362d9eab74f9369f82f "pdflatex"
   (generated)
   "capitoli/Introduzione.aux"
   "capitoli/Metodi.aux"

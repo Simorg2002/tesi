@@ -2,7 +2,7 @@
     Si sceglie come esempio \cite{kouWearableAllFabricHybrid2024} che offre una realizzazione pratica di un harvester ibrido. L'obbiettivo di questo generatore e' proporre un dispositivo riproducibile in scala e facilmente integrabile nel vestiario. Per fare questo usa una struttura interamente fondata su una base di tessuto e accoppia un generatore triboelettrico a uno RF. Un tessuto elettricamente conduttivo disponibile sul mercato e' usato per realizzare le connessioni su ambo i lati di uno strato di tessuto comune di cotone. In questo modo l'harvester diventa altamente flessibile e facilmente integrabile in capi di abbigliamento. Viene poi proposto un metodo efficace per la produzione di dispositivi elettronici basati su tessuto. Avere 2 fonti energetiche distinte aumenta le probabilita' che il dispositivo sia sempre in funzione, inoltre queste in particolare si prestano a un design planare.
     
     \begin{figure}[H]
-        \includegraphics[width=0.8\textwidth]{schema.jpg}
+        \includegraphics[width=0.7\textwidth]{schema.jpg}
         \centering
         \caption{a) Modello della struttura dell'harvester preso in esempio. b) Schema del funzionamento generale dell'harvester.\cite{kouWearableAllFabricHybrid2024}}
         \label{fig:schema}
@@ -25,7 +25,7 @@
         Per raccogliere energia dalle radiazioni presenti nell'ambiente, e' stato scelto un harvester con antenna dimensionata per la sola banda attorno ai \(2.45GHz\), usata per connessioni a corto raggio come Wi-Fi e Bluetooth. La distribuzione di onde radio dovute alle comunicazioni elettroniche e' naturalmente concentrata nelle zone urbane. In aree extraurbane la densita' di potenza dovuta a comunicazioni ad ampio raggio scende vistosamente \cite{ibrahimRadioFrequencyEnergy2022}, la scelta di una banda comunemente usata da dispositivi generalmente vicini all'uomo ha quindi il vantaggio di essere piu' consistente nel tempo. La configurazione per l'antenna e' a patch circolare e le dimensioni ottimali per la risonanza sono stati ottenuti attraverso simulazione. Il valore di specific absorbtion rate (SAR) e' un parametro usato per determinare la potenza assorbita da un'unita' di massa di tessuto corporeo \cite{vallozzi26LatestDevelopments2016}. Secondo le simulazioni il SAR e' \(0.073\frac{W}{Kg}\), ben inferiore ai \(2.0\frac{W}{Kg}\) stabiliti dalle norme europee per antenne mobili. In questo caso il SAR e' usato come parametro di efficienza rispetto alla quantita' di radiazione persa dall'antenna nel corpo. 
 
 
-        {\color{red}
+        
         Un analizzatore (Keysight N5227B) e' usato per misurare la return loss (RL) in condizioni libera e a contatto col corpo. 
         La return loss e' definita come:
         \begin{equation*}
@@ -35,7 +35,7 @@
             \end{aligned}
         \end{equation*}
         Dove \(S_{11}\) e' uno dei parametri di scattering misurati dall'analizzatore, graficato in figura \ref{fig:funzioneRF}. Per le dimensioni scelte si nota effettivamente un picco di \(10\mathrm{dB}\) nel centro banda desiderato. Anche quando l'antenna e' indossata, lo stesso picco trasla di solo \(20\mathrm{MHz}\).
-        }
+        
 
         \begin{figure}[hbt!]
             \includegraphics[width=0.8\textwidth]{funzioneRF.jpg}
@@ -64,7 +64,7 @@
 \end{section}
 
 \begin{section}{Integrazione}
-    {\color{red}I due generatori hanno impedenze diverse in uscita, i moduli sono infatti tre ordini di grandezza distanti. Non possono quindi alimentare direttamente la stessa inferfaccia se si vuole alto rendimento}. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria. Il PMC in questo caso deve svolgere le funzioni di: maximum power point tracking (MPPT), undervoltage lockout (UVLO) e protezione di carica. Due circuiti integrati (ADP5091 e LTC3588), configurati come in figura \ref{fig:schemaPMC}, gestiscono tutte le funzioni. Sono entrambi progettati per applicazioni a bassa potenza e non richiedono alimentazioni oltre quella prodotta dall'harvester stesso. Il ADP5091 e' usato per gestire l'output del generatore RF e proteggere la batteria. In particolare l'uscita REG\_OUT dell'ADP offre la tensione di uscita per il dispositivo da collegare all'harvester quando il componente di accumulo ha raggiunto la tensione minima. Il LTC3588 e' usato per gestire l'output del generatore triboelettrico. Un raddrizzatore ad alta efficienza per alte frequenze e' integrato  tra i pin di ingresso, questo funziona anche da blocco per flussi di corrente verso il TEG.
+    I due generatori hanno impedenze diverse in uscita, i moduli sono infatti tre ordini di grandezza distanti. Non possono quindi alimentare direttamente la stessa inferfaccia se si vuole alto rendimento. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria. Il PMC in questo caso deve svolgere le funzioni di: maximum power point tracking (MPPT), undervoltage lockout (UVLO) e protezione di carica. Due circuiti integrati (ADP5091 e LTC3588), configurati come in figura \ref{fig:schemaPMC}, gestiscono tutte le funzioni. Sono entrambi progettati per applicazioni a bassa potenza e non richiedono alimentazioni oltre quella prodotta dall'harvester stesso. Il ADP5091 e' usato per gestire l'output del generatore RF e proteggere la batteria. In particolare l'uscita REG\_OUT dell'ADP offre la tensione di uscita per il dispositivo da collegare all'harvester quando il componente di accumulo ha raggiunto la tensione minima. Il LTC3588 e' usato per gestire l'output del generatore triboelettrico. Un raddrizzatore ad alta efficienza per alte frequenze e' integrato  tra i pin di ingresso, questo funziona anche da blocco per flussi di corrente verso il TEG.
 
     \begin{figure}[hbt!]
         \includegraphics[width=0.9\textwidth]{schemaPMC.jpg}
@@ -90,7 +90,7 @@
         \begin{equation*}
             V_{BAT\_TERM} = \frac{3}{2}V_{INT\_REF}\left(1+\frac{R_{TERM1}}{R_{TERM2}}\right) \approx 3.6V
         \end{equation*}
-        {\color{red}Dove \(V_{INT\_REF}=1.011\mathrm{V}\), e' la tensione di riferimento generata internamente.}
+        Dove \(V_{INT\_REF}=1.011\mathrm{V}\), e' la tensione di riferimento generata internamente.
         %anche scarica valori in S
     \end{subsection}
 
