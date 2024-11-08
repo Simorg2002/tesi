@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  4 NOV 2024 07:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  8 NOV 2024 04:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -288,26 +288,26 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 ) (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
 \openout1 = `tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Info: Redefining \it@ocap on input line 19.
-LaTeX Info: Redefining \it@ccap on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \it@ocap on input line 17.
+LaTeX Info: Redefining \it@ccap on input line 17.
 
 
 File italian.ldf warning: 
@@ -315,7 +315,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 19.
+italian.ldf    on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -370,23 +370,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 19.
+Package hyperref Info: Link coloring ON on input line 17.
  (./tesi.out) (./tesi.out)
 \@outlinefile=\write3
 \openout3 = `tesi.out'.
 
 
-Overfull \hbox (31.29994pt too wide) in paragraph at lines 39--42
+Overfull \hbox (31.29994pt too wide) in paragraph at lines 37--40
  [] 
  []
 
 
-Overfull \hbox (31.29994pt too wide) in paragraph at lines 39--42
+Overfull \hbox (31.29994pt too wide) in paragraph at lines 37--40
  [] 
  []
 
 
-Overfull \hbox (7.3585pt too wide) in paragraph at lines 55--66
+Overfull \hbox (7.3585pt too wide) in paragraph at lines 53--64
 []  []
  []
 
@@ -400,7 +400,7 @@ Overfull \hbox (7.3585pt too wide) in paragraph at lines 55--66
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 \include{capitoli/Introduzione}
+l.73 \include{capitoli/Introduzione}
                                      [1
 
 ]
@@ -412,7 +412,7 @@ Capitolo 1.
 
 
 ]
-<immagini/classificazioni_fonti.png, id=153, 1749.53625pt x 964.60374pt>
+<immagini/classificazioni_fonti.png, id=158, 1749.53625pt x 964.60374pt>
 File: immagini/classificazioni_fonti.png Graphic file (type png)
 <use immagini/classificazioni_fonti.png>
 Package pdftex.def Info: immagini/classificazioni_fonti.png  used on input line 20.
@@ -432,87 +432,93 @@ Capitolo 2.
 
  (./capitoli/Struttura.tex
 Capitolo 3.
-<immagini/schema.jpg, id=218, 164.93004pt x 129.82057pt>
+<immagini/schema.jpg, id=223, 164.93004pt x 129.82057pt>
 File: immagini/schema.jpg Graphic file (type jpg)
 <use immagini/schema.jpg>
 Package pdftex.def Info: immagini/schema.jpg  used on input line 5.
 (pdftex.def)             Requested size: 360.00137pt x 283.40532pt.
-<immagini/funzioneTEG.jpg, id=222, 120.6511pt x 142.00633pt>
-File: immagini/funzioneTEG.jpg Graphic file (type jpg)
-<use immagini/funzioneTEG.jpg>
-Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 15.
-(pdftex.def)             Requested size: 360.00137pt x 423.81209pt.
 [10
 
 
 
 
- <./immagini/schema.jpg>] [11 <./immagini/funzioneTEG.jpg>]
-<immagini/funzioneRF.jpg, id=242, 164.93004pt x 154.4334pt>
+]
+<immagini/funzioneTEG.jpg, id=232, 120.6511pt x 142.00633pt>
+File: immagini/funzioneTEG.jpg Graphic file (type jpg)
+<use immagini/funzioneTEG.jpg>
+Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 15.
+(pdftex.def)             Requested size: 360.00137pt x 423.81209pt.
+ [11 <./immagini/schema.jpg>] [12 <./immagini/funzioneTEG.jpg>]
+<immagini/funzioneRF.jpg, id=256, 164.93004pt x 154.4334pt>
 File: immagini/funzioneRF.jpg Graphic file (type jpg)
 <use immagini/funzioneRF.jpg>
 Package pdftex.def Info: immagini/funzioneRF.jpg  used on input line 41.
 (pdftex.def)             Requested size: 360.00137pt x 337.13644pt.
- [12] [13 <./immagini/funzioneRF.jpg>]
-<immagini/Greinacher.png, id=264, 1199.48125pt x 410.53375pt>
+ [13]
+<immagini/Greinacher.png, id=268, 1320.935pt x 476.78125pt>
 File: immagini/Greinacher.png Graphic file (type png)
 <use immagini/Greinacher.png>
 Package pdftex.def Info: immagini/Greinacher.png  used on input line 52.
-(pdftex.def)             Requested size: 270.00275pt x 92.40996pt.
-<immagini/schemaPMC.jpg, id=267, 120.6511pt x 127.2869pt>
+(pdftex.def)             Requested size: 270.00275pt x 97.45705pt.
+ [14 <./immagini/funzioneRF.jpg> <./immagini/Greinacher.png>]
+<immagini/schemaPMC.jpg, id=277, 120.6511pt x 127.2869pt>
 File: immagini/schemaPMC.jpg Graphic file (type jpg)
 <use immagini/schemaPMC.jpg>
 Package pdftex.def Info: immagini/schemaPMC.jpg  used on input line 70.
 (pdftex.def)             Requested size: 404.99725pt x 427.36249pt.
- [14 <./immagini/Greinacher.png>] [15 <./immagini/schemaPMC.jpg>] [16]
-<immagini/risultati.jpg, id=291, 120.6511pt x 86.74812pt>
+ [15] [16 <./immagini/schemaPMC.jpg>]
+<immagini/risultati.jpg, id=293, 120.6511pt x 86.74812pt>
 File: immagini/risultati.jpg Graphic file (type jpg)
 <use immagini/risultati.jpg>
 Package pdftex.def Info: immagini/risultati.jpg  used on input line 101.
 (pdftex.def)             Requested size: 382.50275pt x 275.07802pt.
-) [17 <./immagini/risultati.jpg>] (./tesi.bbl (./tesi.brf)
+ [17]) [18 <./immagini/risultati.jpg>]
+Capitolo 4.
+(./tesi.bbl (./tesi.brf)
 \tf@brf=\write5
 \openout5 = `tesi.brf'.
 
- [18
+ [19
 
 
 
-] [19]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 106.
+] [20
+
+] [21]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 101.
  (c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []\OT1/cmr/m/n/12 ADP5091 Da-ta-sheet and Pro-duct In-fo \OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 Ana-log De-vi-ces.
  []
 
-) [20] (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
+) [22] (./tesi.aux (./capitoli/Introduzione.aux) (./capitoli/Metodi.aux) (./capitoli/Struttura.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: B415291F12FDCEC176F108A6D22813B2;4177.
+(rerunfilecheck)             Checksum: 30C4BC6AFE75C3510627E4F50F3BE652;4276.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
-(rerunfilecheck)             Checksum: 319F8BC37A8B09E0A0DCC73395AB1E4F;1876.
+(rerunfilecheck)             Checksum: 191A5EEE07CCD8EAB0D2B20DB6D61377;1802.
  ) 
 Here is how much of TeX's memory you used:
- 11814 strings out of 475361
- 189874 string characters out of 5772361
- 1938460 words of memory out of 5000000
- 33685 multiletter control sequences out of 15000+600000
+ 11813 strings out of 475361
+ 189776 string characters out of 5772361
+ 1936460 words of memory out of 5000000
+ 33682 multiletter control sequences out of 15000+600000
  566341 words of font info for 64 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
- 90i,10n,93p,1448b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tesi.pdf (21 pages, 1657978 bytes).
+ 90i,10n,93p,1448b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on tesi.pdf (23 pages, 1666458 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
- 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 

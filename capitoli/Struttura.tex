@@ -1,5 +1,5 @@
 \chapter{Esempio}
-    Si sceglie come esempio \cite{kouWearableAllFabricHybrid2024} che offre una realizzazione pratica di un harvester ibrido. L'obbiettivo di questo generatore e' proporre un dispositivo riproducibile in scala e facilmente integrabile nel vestiario. Per fare questo usa una struttura interamente fondata su una base di tessuto e accoppia un generatore triboelettrico a uno RF. Un tessuto elettricamente conduttivo disponibile sul mercato e' usato per realizzare le connessioni su ambo i lati di uno strato di tessuto comune di cotone. In questo modo l'harvester diventa altamente flessibile e facilmente integrabile in capi di abbigliamento. Avere 2 fonti energetiche distinte aumenta le probabilita' che il dispositivo sia sempre in funzione, inoltre queste in particolare si prestano a un design planare.
+    Si sceglie come esempio \cite{kouWearableAllFabricHybrid2024} che offre una realizzazione pratica di un harvester ibrido. L'obbiettivo di questo generatore e' proporre un dispositivo riproducibile in scala e facilmente integrabile nel vestiario. Per fare questo usa una struttura interamente fondata su una base di tessuto e accoppia un generatore triboelettrico a uno RF. Un tessuto elettricamente conduttivo disponibile sul mercato e' usato per realizzare le connessioni su ambo i lati di uno strato di tessuto comune di cotone. In questo modo l'harvester diventa altamente flessibile e facilmente integrabile in capi di abbigliamento. Viene poi proposto un metodo efficace per la produzione di dispositivi elettronici basati su tessuto. Avere 2 fonti energetiche distinte aumenta le probabilita' che il dispositivo sia sempre in funzione, inoltre queste in particolare si prestano a un design planare.
     
     \begin{figure}[H]
         \includegraphics[width=0.8\textwidth]{schema.jpg}
@@ -26,15 +26,15 @@
 
 
         {\color{red}
-        Un analizzatore (Keysight N5227B) e' usato per misurare la return loss in condizioni libera e a contatto col corpo. Per le dimensioni scelte si nota effettivamente un picco di \(-10\mathrm{dB}\) nel centro banda desiderato e anche quando l'antenna e' indossata lo stesso picco trasla di solo \(20\mathrm{MHz}\).
-        La return loss e' generalmente definita come 
+        Un analizzatore (Keysight N5227B) e' usato per misurare la return loss (RL) in condizioni libera e a contatto col corpo. 
+        La return loss e' definita come:
         \begin{equation*}
             \begin{aligned}
             RL&=10\log_{10}\left( \frac{P_{in}}{P_{ref}} \right) \mathrm{dB}\\
-            RL&=-20\log_{10}\left|\Gamma\right|\mathrm{dB} \textrm{ , dove }\Gamma=\frac{Z_{out}-Z_{in}}{Z_{in}+Z_{out}}\hspace{2em} \textrm{e' il coefficiente di riflessione}
+            RL&=-S_{11}
             \end{aligned}
         \end{equation*}
-        Questo articolo la usa come una valutazione dell'abbinamento delle impedenze in ingresso e uscita all'antenna, ma il valore ottenuto di\(-10\mathrm{dB}\) e' negativo e indicherebbe una potenza riflessa maggiore delle catturata. Si assume quindi che il valore realmente graficato sia quello del coefficiente di riflessione, che e' spesso sostituito alla return loss \cite{birdDefinitionMisuseReturn2009}. Cio' non detrae pero' dalla conclusione che l'antenna sviluppata e' adatta a ricevere potenza da segnali intorno ai \(2.45GHz\).
+        Dove \(S_{11}\) e' uno dei parametri di scattering misurati dall'analizzatore, graficato in figura \ref{fig:funzioneRF}. Per le dimensioni scelte si nota effettivamente un picco di \(10\mathrm{dB}\) nel centro banda desiderato. Anche quando l'antenna e' indossata, lo stesso picco trasla di solo \(20\mathrm{MHz}\).
         }
 
         \begin{figure}[hbt!]
@@ -55,7 +55,7 @@
             \label{fig:Greinacher}
         \end{figure}
         
-        Nel circuito raddrizzatore per il generatore triboelettrico, sono stati scelti invece dei diodi (\# dice gli stessi...), piu' efficaci a basse frequenze. Separando il raddrizzatore dal PMG (power managment circuit), la coppia antenna/raddrizzatore diventa un modulo facilmente integrabile in altri dispositivi. La capacita' del modulo di convertire un potenza in ingresso sotto forma RF in DC e' stata valutata inserendo un resistore da \(1\mathrm{K\Omega}\) come carico. La fonte RF e' stata creata usando un generatore di onde (SG-3000PRO) a vari livelli di potenza. L'efficienza di conversione in potenza e' stato determinato misurando la tensione ai capi del carico. 
+        Nel circuito raddrizzatore per il generatore triboelettrico, integrato in un chip, sono stati scelti invece dei diodi piu' efficaci a basse frequenze. Separando il raddrizzatore dal PMG (power managment circuit), la coppia antenna/raddrizzatore diventa un modulo facilmente integrabile in altri dispositivi. La capacita' del modulo di convertire un potenza in ingresso sotto forma RF in DC e' stata valutata inserendo un resistore da \(1\mathrm{K\Omega}\) come carico. La fonte RF e' stata creata usando un generatore di onde (SG-3000PRO) a vari livelli di potenza. L'efficienza di conversione in potenza e' stato determinato misurando la tensione ai capi del carico. 
         \begin{equation*}
             PCE = \frac{P_{carico}}{P_{RF}} = \frac{V_{carico}}{R_{carico}^2P_{RF}}
         \end{equation*}
@@ -64,7 +64,7 @@
 \end{section}
 
 \begin{section}{Integrazione}
-    {\color{red}I due generatori hanno impedenze incompatibili in uscita, sono infatti tre ordini di grandezza distanti}. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria. Il PMC in questo caso deve svolgere le funzioni di: maximum power point tracking (MPPT), undervoltage lockout (UVLO) e protezione di carica. Due microprocessori (ADP5091 e LTC3588), configurati come in figura \ref{fig:schemaPMC}, gestiscono tutte le funzioni. Sono entrambi progettati per applicazioni a bassa potenza e non richiedono alimentazioni oltre quella prodotta dall'harvester stesso. Il ADP5091 e' usato per gestire l'output del generatore RF e proteggere la batteria. In particolare l'uscita REG\_OUT dell'ADP offre la tensione di uscita per il dispositivo da collegare all'harvester quando il componente di accumulo ha raggiunto la tensione minima. Il LTC3588 e' usato per gestire l'output del generatore triboelettrico. Un raddrizzatore ad alta efficienza per alte frequenze e' integrato  tra i pin di ingresso, questo funziona anche da blocco per flussi di corrente verso il TEG.
+    {\color{red}I due generatori hanno impedenze diverse in uscita, i moduli sono infatti tre ordini di grandezza distanti. Non possono quindi alimentare direttamente la stessa inferfaccia se si vuole alto rendimento}. Si sviluppa un PMC per convogliare l'energia prodotta dai due in una singola batteria. Il PMC in questo caso deve svolgere le funzioni di: maximum power point tracking (MPPT), undervoltage lockout (UVLO) e protezione di carica. Due circuiti integrati (ADP5091 e LTC3588), configurati come in figura \ref{fig:schemaPMC}, gestiscono tutte le funzioni. Sono entrambi progettati per applicazioni a bassa potenza e non richiedono alimentazioni oltre quella prodotta dall'harvester stesso. Il ADP5091 e' usato per gestire l'output del generatore RF e proteggere la batteria. In particolare l'uscita REG\_OUT dell'ADP offre la tensione di uscita per il dispositivo da collegare all'harvester quando il componente di accumulo ha raggiunto la tensione minima. Il LTC3588 e' usato per gestire l'output del generatore triboelettrico. Un raddrizzatore ad alta efficienza per alte frequenze e' integrato  tra i pin di ingresso, questo funziona anche da blocco per flussi di corrente verso il TEG.
 
     \begin{figure}[hbt!]
         \includegraphics[width=0.9\textwidth]{schemaPMC.jpg}
@@ -86,27 +86,27 @@
     \end{subsection}
 
     \begin{subsection}{Protezione di Carica}
-        Mantenere la tensione imposta sulla batteria all'interno di un certo intervallo e' essenziale per ridurne l'usura. La carica massima e' stabilita a \(3.6\mathrm{V}\) attraverso il dimensionamento delle resistenze \(R_{TERM1}=5.9\mathrm{M\Omega},R_{TERM2}=4.12\mathrm{M\Omega}\), la somma delle resistenze e' sopra ai \(6\mathrm{M\Omega}\), come consigliato dal produttore del MCU per limitare la corrente di quiescenza. {\color{red}Con tensione di riferimento interno \(V_{INT\_REF}=1.011\mathrm{V}\), di default}, la tensione massima ammessa sulla batteria e': 
+        Mantenere la tensione imposta sulla batteria all'interno di un certo intervallo e' essenziale per ridurne l'usura. La carica massima e' stabilita a \(3.6\mathrm{V}\) attraverso il dimensionamento delle resistenze \(R_{TERM1}=5.9\mathrm{M\Omega},R_{TERM2}=4.12\mathrm{M\Omega}\), la somma delle resistenze e' sopra ai \(6\mathrm{M\Omega}\), come consigliato dal produttore del MCU per limitare la corrente di quiescenza. La relazione che determina la tensione massima ammessa e':
         \begin{equation*}
-            V_{BAT_TERM} = \frac{3}{2}V_{INT\_REF}\left(1+\frac{R_{TERM1}}{R_{TERM2}}\right) \approx 3.6V
+            V_{BAT\_TERM} = \frac{3}{2}V_{INT\_REF}\left(1+\frac{R_{TERM1}}{R_{TERM2}}\right) \approx 3.6V
         \end{equation*}
+        {\color{red}Dove \(V_{INT\_REF}=1.011\mathrm{V}\), e' la tensione di riferimento generata internamente.}
         %anche scarica valori in S
     \end{subsection}
 
     \begin{subsection}{Integrazione}
-        L'harvester ibrido e' stato testato in condizioni controllate ed e' stato misurato quanto velocemente carica un supercondesatore da \(1000\mathrm{\mu F}\). La fonte RF e' stata posta a \(12\mathrm{cm}\) e emette \(13\mathrm{dBmW}\), mentre il movimento e' azionato da un attuatore lineare a \(2\mathrm{Hz}\). In queste condizioni il condensatore supera di poco la tensione massima stabilita e resta stabile a \(3.7\mathrm{V}\) dopo \(3\mathrm{m}\). Si ottiene una potenza media di \(38\mathrm{\mu W}\), con picco \(111\mathrm{\mu W}\), che alle dimensioni di \(10\mathrm{cm}\times30\mathrm{cm}\) corrisponde a \(0.13\mathrm{\mu W}\) medi. Per verificarne l'applicabilita' ad un caso pratico, l'harvester e' stato indossato da un volontario e collegato a due dispositivi di cui e' stato misurato il tempo di funzionamento. Un sensore di temperatura commerciale ha portato il condensatore da \(3.65\mathrm{V}\) alla sua tensione di funzionamento minima \(1.5\mathrm{V}\) in \(42\mathrm{2}\).
+        L'harvester ibrido e' stato testato in condizioni controllate, misurando quanto velocemente carica un supercondesatore da \(1000\mathrm{\mu F}\). La fonte RF e' stata posta a \(12\mathrm{cm}\) e emette \(13\mathrm{dBmW}\), mentre il movimento e' azionato da un attuatore lineare a \(2\mathrm{Hz}\). In queste condizioni il condensatore supera di poco la tensione massima stabilita e resta stabile a \(3.7\mathrm{V}\) dopo \(3\mathrm{m}\). Si ottiene una potenza media di \(38\mathrm{\mu W}\), con picco \(111\mathrm{\mu W}\), che alle dimensioni di \(10\mathrm{cm}\times30\mathrm{cm}\) corrisponde a \(0.13\mathrm{ \frac{\mu W}{cm^2}}\) medi. Per verificarne l'applicabilita' ad un caso pratico, l'harvester con condenstore carico e' stato indossato da un volontario e collegato a due dispositivi di cui e' stato misurato il tempo di funzionamento. Un sensore di temperatura commerciale ha portato il condensatore da \(3.65\mathrm{V}\) alla sua tensione di funzionamento minima \(1.5\mathrm{V}\) in \(42\mathrm{s}\). Un orologio meccanico con tensione operativa di \(1\mathrm{V}\) funziona invece fino a \(32\mathrm{m}\).
         I tempi di carica dei generatori singoli e la modalita' ibrida sono stati raccolti in un grafico in figura \ref{fig:risultati}. Da qui si puo' notare come la potenza generata dalla parte triboelettrica sia trascurabile rispetto a quella generata dall'antenna.
-
         \begin{figure}{H}
             \includegraphics[width=0.85\textwidth]{risultati.jpg}
             \centering
             \caption{a) Tempi di carica singoli e modalita' ibrida. b) Tempi di funzionamento dispositivi reali. c) Configurazione sensore di temperatura. d) Configurazione orologio. \cite{kouWearableAllFabricHybrid2024}}
             \label{fig:risultati}
         \end{figure}
-
-        In questo caso il funzionamento ibrido e' svantaggioso, in quanto la densita' di potenza aumenterebbe se il dispositivo fosse limitato a una fonte RF. Essendo un harvester sviluppato per uso esterno avvolto a un arto, diminuire ulteriormente le dimensioni sul piano non e' particolarmente vantaggioso. Per cui, avere il basso flusso energetico raccolto dal movimento potrebbe essere comunque vantaggioso, in particolare vista la possibilita' di produrlo in modo semplice. Andrebbero pero' considerate alternative come fotovoltaico o termoelettrico, che nella stessa posizione non si trovano in condizioni di bassa efficienza come il triboelettrico. 
+        L'inefficienza del generatore triboelettrico causa una caduta considerevole nella densita' di potenza generata dall'harvester. Avere una seconda fonte energetica e' comunque utile quando dovesse mancare l'accesso a sorgenti wireless. Inoltre, il dispositivo con base di tessuto e' destinato ad uso esterno e facilmente integrabile nel vestiario, puo' quindi permettersi di essere esteso per aumentare la potenza totale prodotta. Si potrebbero pero' considerate fonti alternative come fotovoltaico o termoelettrico, che nella stessa posizione non si trovano in condizioni di bassa efficienza come il triboelettrico. Rispetto a queste, i vantaggi sono certamente il costo e la facilita' della produzione del generatore triboelettrico.
     \end{subsection}
 
     %potrei guardare simulazioni o produzione su tessuto
+
 
 \end{section}

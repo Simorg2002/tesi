@@ -8,45 +8,45 @@ The style file: unsrt.bst
 Database file #1: test.bib
 Warning--empty year in simInstantDisinfectingFace
 Warning--empty year in liSmartRailwayTransportation
-You've used 22 entries,
+You've used 21 entries,
             1791 wiz_defined-function locations,
-            610 strings with 10885 characters,
-and the built_in function-call counts, 6275 in all, are:
-= -- 440
-> -- 481
+            602 strings with 10661 characters,
+and the built_in function-call counts, 6051 in all, are:
+= -- 417
+> -- 477
 < -- 2
-+ -- 168
-- -- 146
-* -- 598
-:= -- 1087
-add.period$ -- 66
-call.type$ -- 22
-change.case$ -- 22
++ -- 166
+- -- 145
+* -- 579
+:= -- 1053
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 212
-empty$ -- 512
-format.name$ -- 146
-if$ -- 1300
+cite$ -- 23
+duplicate$ -- 203
+empty$ -- 488
+format.name$ -- 145
+if$ -- 1252
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 21
-newline$ -- 112
-num.names$ -- 23
-pop$ -- 33
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 107
+num.names$ -- 22
+pop$ -- 32
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 87
+skip$ -- 84
 stack$ -- 0
-substring$ -- 397
-swap$ -- 36
+substring$ -- 372
+swap$ -- 35
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 48
-width$ -- 24
-write$ -- 241
+while$ -- 45
+width$ -- 23
+write$ -- 230
 (There were 2 warnings)

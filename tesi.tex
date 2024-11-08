@@ -11,10 +11,8 @@
 % \svgpath{{immagini/}}
 \graphicspath{{immagini/}}
 \usepackage{xcolor}
+\usepackage[colorlinks, linkcolor=blue, backref=section]{hyperref}
 
-
-
-\usepackage[colorlinks,allcolors=links,pagebackref=true]{hyperref}
 
 \begin{document}
 
@@ -78,8 +76,16 @@
 
 \include{capitoli/Struttura}
 
+\begin{chapter}{Conclusione}
+    In questa tesi e' stata studiata la possibilita' di alimentare dispositivi indossabili attraverso generatori integrati ad essi, detti energy harvester. Tecnologie di questo tipo attingono a fonti energetiche esterne al dipositivo che alimentano. Le fonti considerate sono sostenibili e a bassa intensita', ma generalmente presenti attorno all'uomo.L'obbiettivo principale e' sostituire o supportare le batterie comunemente usate. Questo renderebbe i dispositivi mobili meglio capaci di operare in modo ininterrotto, con meno manutenzione e quindi anche in luoghi isolati dalla distribuzione elettrica. I vantaggi dell'energy harvesting sono interessanti per appliazioni IoT, ma ancora di piu' per dispositivi medici indossabili e impiantabili. Restrizioni sulle dimensioni e la necessita' di avere alta efficienza sono i principali ostacoli all'uso allargato di energy harvesting. 
+
+    Si e' scelto come esempio un harvester ibrido che converte segnali intorno ai \(2.5\mathrm{GHz}\) dovuti alle comunicazioni wireless e le vibrazioni dovute al movimento umano. Viene dimostrato che la potenza prodotta da questo e' sufficiente a alimentare dispositvi a bassa potenza. Il fatto di essere altamente flessibile e interamnte costruito su substrato tessile, permette l'integrazione nel vestiaro e quindi la connessione a vari tipi di dispositivo indossabile.  
+\end{chapter}
+
+
 %biblio
 \bibliographystyle{unsrt}
 \bibliography{test}
+
 
 \end{document}
