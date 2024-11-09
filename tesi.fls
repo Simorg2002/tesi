@@ -214,6 +214,10 @@ INPUT ./immagini/piezoelettrici.png
 INPUT ./immagini/piezoelettrici.png
 INPUT ./immagini/piezoelettrici.png
 INPUT ./immagini/piezoelettrici.png
+INPUT ./immagini/termoelettrici.png
+INPUT ./immagini/termoelettrici.png
+INPUT ./immagini/termoelettrici.png
+INPUT ./immagini/termoelettrici.png
 INPUT ./capitoli/Struttura.tex
 INPUT ./capitoli/Struttura.tex
 OUTPUT capitoli/Struttura.aux
