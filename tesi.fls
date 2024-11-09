@@ -190,6 +190,10 @@ INPUT ./capitoli/Introduzione.tex
 INPUT ./capitoli/Introduzione.tex
 INPUT capitoli/Introduzione.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./immagini/indossabili.png
+INPUT ./immagini/indossabili.png
+INPUT ./immagini/indossabili.png
+INPUT ./immagini/indossabili.png
 INPUT ./immagini/classificazioni_fonti.png
 INPUT ./immagini/classificazioni_fonti.png
 INPUT ./immagini/classificazioni_fonti.png
@@ -202,6 +206,14 @@ OUTPUT capitoli/Metodi.aux
 INPUT ./capitoli/metodi.tex
 INPUT ./capitoli/metodi.tex
 INPUT capitoli/metodi.tex
+INPUT ./immagini/triboelettrici.png
+INPUT ./immagini/triboelettrici.png
+INPUT ./immagini/triboelettrici.png
+INPUT ./immagini/triboelettrici.png
+INPUT ./immagini/piezoelettrici.png
+INPUT ./immagini/piezoelettrici.png
+INPUT ./immagini/piezoelettrici.png
+INPUT ./immagini/piezoelettrici.png
 INPUT ./capitoli/Struttura.tex
 INPUT ./capitoli/Struttura.tex
 OUTPUT capitoli/Struttura.aux
