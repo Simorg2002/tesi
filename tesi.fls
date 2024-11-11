@@ -230,6 +230,10 @@ INPUT ./immagini/biocombustibili.png
 INPUT ./immagini/biocombustibili.png
 INPUT ./immagini/biocombustibili.png
 INPUT ./immagini/biocombustibili.png
+INPUT ./immagini/ibridi.png
+INPUT ./immagini/ibridi.png
+INPUT ./immagini/ibridi.png
+INPUT ./immagini/ibridi.png
 INPUT ./capitoli/Struttura.tex
 INPUT ./capitoli/Struttura.tex
 OUTPUT capitoli/Struttura.aux
