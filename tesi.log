@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  9 NOV 2024 05:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.3)  11 NOV 2024 02:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -408,7 +408,7 @@ l.73 \include{capitoli/Introduzione}
 
  (./capitoli/Introduzione.tex
 Capitolo 1.
-<immagini/indossabili.png, id=153, 1477.52pt x 856.19875pt>
+<immagini/indossabili.png, id=148, 1477.52pt x 856.19875pt>
 File: immagini/indossabili.png Graphic file (type png)
 <use immagini/indossabili.png>
 Package pdftex.def Info: immagini/indossabili.png  used on input line 11.
@@ -422,7 +422,7 @@ Overfull \hbox (31.74632pt too wide) in paragraph at lines 11--13
 
 
 ]
-<immagini/classificazioni_fonti.png, id=160, 1749.53625pt x 964.60374pt>
+<immagini/classificazioni_fonti.png, id=155, 1749.53625pt x 964.60374pt>
 File: immagini/classificazioni_fonti.png Graphic file (type png)
 <use immagini/classificazioni_fonti.png>
 Package pdftex.def Info: immagini/classificazioni_fonti.png  used on input line 25.
@@ -432,7 +432,7 @@ Package pdftex.def Info: immagini/classificazioni_fonti.png  used on input line 
 
  (./capitoli/metodi.tex
 Capitolo 2.
-<immagini/triboelettrici.png, id=204, 1881.0275pt x 1099.10625pt>
+<immagini/triboelettrici.png, id=199, 1881.0275pt x 1099.10625pt>
 File: immagini/triboelettrici.png Graphic file (type png)
 <use immagini/triboelettrici.png>
 Package pdftex.def Info: immagini/triboelettrici.png  used on input line 9.
@@ -448,7 +448,7 @@ Overfull \hbox (31.74632pt too wide) in paragraph at lines 9--11
 
 
 ]
-<immagini/piezoelettrici.png, id=212, 2785.40625pt x 1259.70625pt>
+<immagini/piezoelettrici.png, id=207, 2785.40625pt x 1259.70625pt>
 File: immagini/piezoelettrici.png Graphic file (type png)
 <use immagini/piezoelettrici.png>
 Package pdftex.def Info: immagini/piezoelettrici.png  used on input line 19.
@@ -459,22 +459,38 @@ Overfull \hbox (31.74632pt too wide) in paragraph at lines 19--21
  []
 
 [7 <./immagini/triboelettrici.png>]
-<immagini/termoelettrici.png, id=220, 947.54pt x 679.53876pt>
+<immagini/termoelettrici.png, id=215, 947.54pt x 433.62pt>
 File: immagini/termoelettrici.png Graphic file (type png)
 <use immagini/termoelettrici.png>
 Package pdftex.def Info: immagini/termoelettrici.png  used on input line 29.
-(pdftex.def)             Requested size: 270.00275pt x 193.62907pt.
- [8 <./immagini/piezoelettrici.png>] [9 <./immagini/termoelettrici.png>] [10]) [11]
+(pdftex.def)             Requested size: 270.00275pt x 123.55652pt.
+<immagini/elettrostatici.png, id=216, 1885.0425pt x 862.22125pt>
+File: immagini/elettrostatici.png Graphic file (type png)
+<use immagini/elettrostatici.png>
+Package pdftex.def Info: immagini/elettrostatici.png  used on input line 39.
+(pdftex.def)             Requested size: 404.99725pt x 185.24239pt.
+ [8 <./immagini/piezoelettrici.png> <./immagini/termoelettrici.png>]
+<immagini/elettromagnetici.png, id=225, 1270.7475pt x 743.77875pt>
+File: immagini/elettromagnetici.png Graphic file (type png)
+<use immagini/elettromagnetici.png>
+Package pdftex.def Info: immagini/elettromagnetici.png  used on input line 49.
+(pdftex.def)             Requested size: 270.00275pt x 158.0367pt.
+<immagini/biocombustibili.png, id=226, 1292.83pt x 896.34875pt>
+File: immagini/biocombustibili.png Graphic file (type png)
+<use immagini/biocombustibili.png>
+Package pdftex.def Info: immagini/biocombustibili.png  used on input line 59.
+(pdftex.def)             Requested size: 314.99863pt x 218.39694pt.
+ [9 <./immagini/elettrostatici.png> <./immagini/elettromagnetici.png>] [10 <./immagini/biocombustibili.png>]) [11]
 \openout2 = `capitoli/Struttura.aux'.
 
  (./capitoli/Struttura.tex
 Capitolo 3.
-<immagini/schema.jpg, id=244, 164.93004pt x 129.82057pt>
+<immagini/schema.jpg, id=248, 164.93004pt x 129.82057pt>
 File: immagini/schema.jpg Graphic file (type jpg)
 <use immagini/schema.jpg>
 Package pdftex.def Info: immagini/schema.jpg  used on input line 5.
 (pdftex.def)             Requested size: 314.99863pt x 247.97693pt.
-<immagini/funzioneTEG.jpg, id=248, 120.6511pt x 142.00633pt>
+<immagini/funzioneTEG.jpg, id=252, 120.6511pt x 142.00633pt>
 File: immagini/funzioneTEG.jpg Graphic file (type jpg)
 <use immagini/funzioneTEG.jpg>
 Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 15.
@@ -485,25 +501,25 @@ Package pdftex.def Info: immagini/funzioneTEG.jpg  used on input line 15.
 
 
  <./immagini/schema.jpg>] [13 <./immagini/funzioneTEG.jpg>]
-<immagini/funzioneRF.jpg, id=269, 164.93004pt x 154.4334pt>
+<immagini/funzioneRF.jpg, id=273, 164.93004pt x 154.4334pt>
 File: immagini/funzioneRF.jpg Graphic file (type jpg)
 <use immagini/funzioneRF.jpg>
 Package pdftex.def Info: immagini/funzioneRF.jpg  used on input line 41.
 (pdftex.def)             Requested size: 360.00137pt x 337.13644pt.
  [14]
-<immagini/Greinacher.png, id=285, 1320.935pt x 476.78125pt>
+<immagini/Greinacher.png, id=289, 1320.935pt x 476.78125pt>
 File: immagini/Greinacher.png Graphic file (type png)
 <use immagini/Greinacher.png>
 Package pdftex.def Info: immagini/Greinacher.png  used on input line 52.
 (pdftex.def)             Requested size: 270.00275pt x 97.45705pt.
  [15 <./immagini/funzioneRF.jpg>]
-<immagini/schemaPMC.jpg, id=292, 120.6511pt x 127.2869pt>
+<immagini/schemaPMC.jpg, id=296, 120.6511pt x 127.2869pt>
 File: immagini/schemaPMC.jpg Graphic file (type jpg)
 <use immagini/schemaPMC.jpg>
 Package pdftex.def Info: immagini/schemaPMC.jpg  used on input line 70.
 (pdftex.def)             Requested size: 404.99725pt x 427.36249pt.
  [16 <./immagini/Greinacher.png>] [17 <./immagini/schemaPMC.jpg>]
-<immagini/risultati.jpg, id=311, 120.6511pt x 86.74812pt>
+<immagini/risultati.jpg, id=315, 120.6511pt x 86.74812pt>
 File: immagini/risultati.jpg Graphic file (type jpg)
 <use immagini/risultati.jpg>
 Package pdftex.def Info: immagini/risultati.jpg  used on input line 101.
@@ -538,23 +554,23 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 30C4BC6AFE75C3510627E4F50F3BE652;4276.
+(rerunfilecheck)             Checksum: 2F372609B5B3AFE3737B2930AF40EE01;4091.
 Package rerunfilecheck Info: File `tesi.brf' has not changed.
 (rerunfilecheck)             Checksum: 5EACFC5B4931EFC7B2260C656FC028B5;1803.
  ) 
 Here is how much of TeX's memory you used:
- 11858 strings out of 475361
- 191013 string characters out of 5772361
+ 11889 strings out of 475361
+ 191954 string characters out of 5772361
  1938460 words of memory out of 5000000
- 33722 multiletter control sequences out of 15000+600000
+ 33751 multiletter control sequences out of 15000+600000
  566341 words of font info for 64 fonts, out of 8000000 for 9000
  398 hyphenation exceptions out of 8191
  90i,10n,93p,1584b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tesi.pdf (24 pages, 2270597 bytes).
+Output written on tesi.pdf (24 pages, 2483971 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 370 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 368 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -34,31 +34,46 @@
    \end{subsection}
 
    \begin{subsection}{Generatori Elettrostatici}
-    Un generatore elettrostatico genera corrente in seguito alla variazione nella capacita' di un condensatore. La variazione e' causata dal movimento relativo delle armature. Si preferiscono condensatori con forma planare che cambiano la propria capacita' in risposta a una deformazione, ad esempio strutture a nido d'ape o a pettine.
+    Un generatore elettrostatico genera corrente in seguito alla variazione nella capacita' di un condensatore. La variazione puo' essere causata causata dal movimento relativo delle armature o dal cambiamento della costante dielettrica, entrambi azionati da uno stimolo meccanico. Si preferiscono condensatori con forma planare che cambiano la propria capacita' in risposta a una deformazione, ad esempio strutture a nido d'ape o a pettine.
+    \begin{figure}[H]
+        \includegraphics[width=0.9\textwidth]{elettrostatici.png}
+        \centering
+        \caption{Esempi di generatore elettrostatico. a) Dielettrico a nido d'ape. b) armature a pettine.}
+        \label{fig:elettristatici}
+    \end{figure}
    \end{subsection}
 
    \begin{subsection}{Generatori Elettromagnetici}
     I generatori elettromagnatici sfruttano la legge di Farady per produrre corrente dal movimento relativo di spire e magneti. La mancanza di accoppiamento meccanico tra le componenti riduce l'usura dovuta all'attrito rispetto alle altre soluzioni di harvesting per energia meccanica. La maggior parte delle implementazioni preferiscono l'assetto lineare al rotazionale. Il magnete permanente si trova all'interno degli avvolgimenti conduttivi, accoppiato a una molla per aumentare l'efficienza.
+    \begin{figure}[H]
+        \includegraphics[width=0.6\textwidth]{elettromagnetici.png}
+        \centering
+        \caption{Esempio di generatore elettromagnetico lineare.}
+        \label{fig:elettromagnetici}
+    \end{figure}
    \end{subsection}
    
    \begin{subsection}{Celle a Biocombustibili}
     Le celle a biocombustibile producono corrente attraverso l'ossidazione di una macromolecola disponibile nel corpo, come glucosio o acido lattico. Una membrana permeabile solo a cariche positive separa anodo e catodo della cella per forzare la corrente elettronica sul circuito voluto. La reazione necessita di catalizzatori per massimizzare l'efficienza. Enzimi, microbi e strutture inorganiche possono essere usate come catalizzatori. Sia gli enzimi, ma ancora di piu' i batteri, richiedono il perfetto isolamento della cella per evitare perdite di efficienza o infezioni. Catalizzatori solidi sono piu' sicuri ma meno efficaci. Finche' i reagenti sono disponibili la cella puo' produrre energia in modo continuato. Questo tipo di harvester si presta sia a dispositivi indossabili, raccogliendo acido lattico dal sudore, ma anche a dispositivi impiantabili che possono accedere al glucosio interstiziale che e' ancora piu' energeticamente denso. 
-   \end{subsection}
-
-   \begin{subsection}{Generatori Igroelettrici}
-    I generatori igroelettrici per harvesting energetico sfruttano l'effetto idrovoltaico tra molecole di vapore acqueo e un nanomateriale. Il passaggio delle molecole d'acqua attraverso la struttura porosa contro gradiente di concentrazione crea una differenza di potenziale sulle pareti che si traduce in piccole correnti. La densita' di potenza prodotta e' bassa e dipendente dalla differenza di umidita' alle estremita'. Possibili applicazioni sono a contatto con la superfice corporea raccogliendo la traspirazione o in sensori montanti su maschere. 
+    \begin{figure}[H]
+        \includegraphics[width=0.7\textwidth]{biocombustibili.png}
+        \centering
+        \caption{Esempio di cella a biocombustibile.}
+        \label{fig:biocombustibili}
+    \end{figure}
    \end{subsection}
 \end{section}
 
 
 \begin{section}{Sorgenti Ambientali}
     Le fonti ambientali comprendono tutte quelle esterne al dispositivo stesso e non derivanti dall'utilizzatore. Le piu' importanti sono il vento, a cui e' difficile attingere per un dispositivo indossabile, e le onde elettromagnetiche. Gli sforzi si concentrano su queste ultime, che siano dovute a comunicazioni o dispositivi pensati per il trasferimeno di potenza wireless.
+
     \begin{subsection}{Generatori Fotovoltaici}
     Dispositivi che usano harvesting fotovoltaico sono in commercio da tempo, come le calcolatrici ad esempio. Per dispositivi esposti alla luce si scelgono le usuali celle al silicio amorfo o cristallino. Seppure usare la forma amorfa abbassi l'efficienza di conversione, la struttura diventa flessibile e la maggiore indossabilita' permette di aumentare l'area del pannello. Se invece il dispositivo e' un impianto sottocutaneo si sceglono materiali piu' sensibili alle basse frequenze luminose. Per la massima biocompatibilita' si possono usare celle prodotte con materiali organici ma meno prestanti. In condizioni ottimali, con dispositivo esposto alla luce solare, la potenza generata e' sufficientemente alta, e i costi di produzione sono bassi. E' pero' difficile garantire il funzionamento se si considerano le cadute in irradianza dovute a ambienti chiusi o vestiti.
     \end{subsection}
 
     \begin{subsection}{Generatori a Radiofrequenza (RF)}
-    Energia sotto forma di onde radio e' altamente dis+ponibile nell'ambiente grazie allo sviluppo delle comunicazioni wireless. Per catturare questa energia sono necessarie delle antenne con raddrizzatore. I problemi principali nel recuperare energia da onde radio sono le dimensioni e la complessita' delle componenti circuitali accessorie all'antenna. La produzione di corrente e' pero' pressoche' continua e affidabile. Si possono anche usare tecniche di trasferimento di potenza wireless quando necessario, ma sono limitate da problemi di vicinanza e allineamento del dispositivo rispetto alla fonte. 
+    Energia sotto forma di onde radio e' altamente disponibile nell'ambiente grazie allo sviluppo delle comunicazioni wireless. Per catturare questa energia sono necessarie delle antenne con raddrizzatore. I problemi principali nel recuperare energia da onde radio sono le dimensioni e la complessita' delle componenti circuitali accessorie all'antenna. La produzione di corrente e' pero' pressoche' continua e affidabile. Si possono anche usare tecniche di trasferimento di potenza wireless quando necessario, ma sono limitate da problemi di vicinanza e allineamento del dispositivo rispetto alla fonte. 
     \end{subsection}
 \end{section}
 
