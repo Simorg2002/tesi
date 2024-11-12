@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {3.1.1}Generatore Triboelettrico}{13}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Generatore a Radiofrequenza}{14}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Integrazione}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}MPPT}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}MPPT}{16}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}UVLO}{18}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Protezione di Carica}{18}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Integrazione}{18}{subsection.3.2.4}%
